@@ -111,10 +111,34 @@ a {
   text-transform: uppercase;
 }
 
-.title-red {
+.title__red {
   color: red;
 }
 
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.arrows {
+  display: flex;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  height: 42px;
+  width: 42px;
+  cursor: pointer;
+}
+
+.arrow__prev {
+  border-right: none;
+}
 
 
 
