@@ -27,12 +27,14 @@
 }
 
 .carsnews__slider-inner {
-    max-height: 460px;
+    
 }
 
-.carsnews__news {
-    width: 300px;
+.carsnews__news {    
+    // width: 300px;
+    height: 460px;
     border: 1px solid rgba(0, 0, 0, 0.5);
+    outline: none;
 }
 
 .carsnews__news-info {
@@ -59,8 +61,6 @@
     line-height: 21px;
     color: rgba(0, 0, 0, 0.8);
 }
-
-
 
 .carsnews__title-br {
     display: block;

@@ -9,21 +9,13 @@
     flex-direction: column;
 }
 
-.latest__slider-inner {
-    max-height: 410px;
+.latest__video {    
+    height: 305px;
+    outline: none;
 }
-
-.latest__video {
-    max-width: 305px;
-}
-
-
-
-
-
-
 
 .latest__video-title {
+    max-width: 367px;
     padding-top: 15px;
     font-size: 20px;
     line-height: 30px;

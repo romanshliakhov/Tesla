@@ -9,10 +9,6 @@
     flex-direction: column;      
 }
 
-.stock__slider-inner {
-    max-height: 446px;    
-}
-
 .stock__arrows {
     display: flex;
 }
@@ -34,7 +30,9 @@
 
 .stock__slider-car {    
     width: 300px;
+    height: 446px;
     background-color: #fff;    
+    outline: none;
 }
 
 .stock__car-info {
