@@ -5,7 +5,8 @@ $(function(){
         autoplay: false,
 		slidesToShow: 4,
 		slidesToScroll: 1,
-        	  
+		// adaptiveHeight: true,
+		// variableWidth: true   
     });   
 });
 
@@ -15,7 +16,21 @@ $(function(){
 		nextArrow: '.latest__arrow-next',	        		       
         autoplay: false,
 		slidesToShow: 3,
-		slidesToScroll: 1,        	  
+		slidesToScroll: 1,  
+		// adaptiveHeight: true,
+		// variableWidth: true         	  
+    });   
+});
+
+$(function(){
+    $('.carsnews__slider-inner').slick({
+		prevArrow: '.carsnews__arrow-prev',        
+		nextArrow: '.carsnews__arrow-next',	        		       
+        autoplay: false,
+		slidesToShow: 4,
+		slidesToScroll: 1,  
+		// adaptiveHeight: true,
+		// variableWidth: true  	  
     });   
 });
 
