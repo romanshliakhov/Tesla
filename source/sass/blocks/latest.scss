@@ -6,5 +6,45 @@
 
 .latest__inner {
     display: flex;
+    flex-direction: column;
+}
+
+.latest__slider-inner {
+    max-height: 410px;
+}
+
+.latest__video {
+    max-width: 305px;
+}
+
+
+
+
+
+
+
+.latest__video-title {
+    padding-top: 15px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.latest__arrows {
+    display: flex;
+}
+
+.latest__arrow {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    border: 1px solid #000;
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+}
+
+.latest__arrow-prev {
+    border-right: none;
 }

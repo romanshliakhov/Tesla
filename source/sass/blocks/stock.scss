@@ -3,8 +3,79 @@
 }
 
 .stock__inner {
+    padding: 100px 0;
     min-height: 745px;
     display: flex;
-    align-items: center;   
+    flex-direction: column;      
 }
 
+.stock__slider-inner {
+    max-height: 446px;    
+}
+
+.stock__arrows {
+    display: flex;
+}
+
+.stock__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+}
+
+.stock__arrow__prev {
+    border-right: none;
+}
+
+
+.stock__slider-car {    
+    width: 300px;
+    background-color: #fff;    
+}
+
+.stock__car-info {
+    padding: 25px 22px 19px;
+}
+
+.stock__car-image {    
+    max-height: 299px;
+}
+
+.stock__car-title {    
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.stock__car-details {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.stock__car-detail {
+    max-width: 90px;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba( 0, 0, 0, 0.5);
+}
+
+.stock__car-year,
+.stock__car-milage,
+.stock__car-price {
+    display: block;
+    font-size: 14px;
+    line-height: 22px; 
+    font-weight: 500;   
+    color: #000;
+}
+
+.stock__car-price {
+    color: #E31937;
+}
