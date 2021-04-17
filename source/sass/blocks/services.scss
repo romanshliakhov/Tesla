@@ -1,0 +1,40 @@
+.services {
+    margin-top: -80px;
+    display: flex;
+}
+
+.services__block {
+    min-height: 687px;
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.services__block-sell {
+    background-image: url(../img/background/sell.jpg);    
+}
+
+.services__block-repair {
+    background-image: url(../img/background/repair.jpg);   
+}
+
+.services__block-diagnostics {
+    background-image: url(../img/background/diagnostics.jpg);    
+}
+
+.services__title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #fff;    
+}
+
+.services__abbr {
+    display: block;
+    text-transform: uppercase;
+}
