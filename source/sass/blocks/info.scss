@@ -1,0 +1,76 @@
+.info {    
+    background-image: url(../img/background/info.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+.info__inner {
+    min-height: 756px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.info__car-img {
+    background: transparent;
+}
+
+.info__right {
+    max-width: 700px;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.info__title {
+    margin-bottom: 60px;
+}
+
+.info__title-red {
+    color: red;
+}
+
+.info__list-inner {
+    max-width: 650px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info__list {
+    max-width: 295px;
+}
+
+.info__list-item {    
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        background-image: url(../img/icons/list.png);
+        background-repeat: no-repeat;
+        height: 15px;
+        width: 15px;
+        margin-left: -25px;
+    }
+}
+
+.info__contacts {
+    min-height: 133px;
+    min-width: 946px;
+    background-color: #000;
+    margin-bottom: 50px;
+}
