@@ -26,14 +26,15 @@
 
 .info__right {
     max-width: 700px;
-    font-size: 36px;
-    line-height: 50px;
-    font-weight: 300;
-    text-transform: uppercase;
+    text-transform: uppercase;    
 }
 
 .info__title {
     margin-bottom: 60px;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 300;
+    
 }
 
 .info__title-red {
@@ -73,4 +74,12 @@
     min-width: 946px;
     background-color: #000;
     margin-bottom: 50px;
+}
+
+.info__text {
+    max-width: 630px;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: none;
 }

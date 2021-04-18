@@ -1,0 +1,40 @@
+.breadcrumbs {
+    background-color: #E5E5E5;  
+}
+
+.breadcrumbs__inner {
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+}
+
+.breadcrumbs__list {      
+    font-size: 14px;
+    line-height: 16px;  
+            
+}
+
+.breadcrumbs__item {
+    display: inline-block;
+    position: relative;
+    font-weight: 500;    
+
+    &+li {
+        padding-left: 40px;
+
+        &::before {
+            content: '';
+            position: absolute;            
+            width: 5px;
+            height: 5px;
+            background-color: #000;     
+            margin-left: -20px;     
+            top: 5px;
+        }
+    }     
+}
+
+.breadcrumbs__item-active {
+    color: rgba(0, 0, 0, 0.5);
+}
+
