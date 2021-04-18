@@ -1,5 +1,5 @@
 .footer {
-    background: linear-gradient(#E5E5E5 53%, #000 47%);    
+    background: linear-gradient(#E5E5E5 53%, #000 47%);
 }
 
 .footer__inner {
@@ -8,10 +8,10 @@
 }
 
 .footer__top {
-    max-height: 377px;     
+    max-height: 377px;
     display: flex;
-    justify-content: space-between;    
-    background-color: #fff;     
+    justify-content: space-between;
+    background-color: #fff;
 }
 
 .footer__contacts {
@@ -27,7 +27,7 @@
 }
 
 .footer__contacts-box {
-    display: flex;    
+    display: flex;
     justify-content: space-between;
 }
 
@@ -46,7 +46,7 @@
 
     &+& {
         margin-top: 10px;
-    }  
+    }
 }
 
 .footer__record {
@@ -84,26 +84,15 @@
     align-items: center;
 }
 
-.footer__socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 42px;
-    height: 42px;
+.footer__socials {    
     border: 1px solid rgba(255, 255, 255, 0.7);
-    
-    &+& {
-        margin-left: 15px;
-    }
 
     svg {
-        height: 20px;
-        width: 20px;
         fill: rgba(255, 255, 255, 0.7);
     }
 }
 
-.footer__item {    
+.footer__item {
     display: flex;
     align-items: center;
 }
