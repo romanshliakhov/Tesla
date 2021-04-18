@@ -1,0 +1,30 @@
+.news__inner {
+    background-color: #e5e5e5;    
+}
+
+.news__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.news__box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.news__block {      
+    height: 229px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+
+.news__more {
+    width: 100%;
+    margin-top: 40px;
+}
+
