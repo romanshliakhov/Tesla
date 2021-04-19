@@ -58,19 +58,7 @@
     line-height: 17px;
 }
 
-.originals__link-catalog {
+.originals__link {
     margin-top: 50px;
-    padding: 10px 75px;
-    border: 1px solid red;
-    font-size: 14px;
-    font-weight: 500;
-    color: red;
-    text-transform: uppercase;
-    transition: 0.7s ease;
 
-    &:hover {
-        color: #fff;
-        background-color: red;
-        border: 1px solid #000;
-    }
 }
