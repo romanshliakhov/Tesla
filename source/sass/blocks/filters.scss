@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .filter__title,
@@ -28,44 +29,55 @@
     position: relative;
 }
 
-.filter__label-text {
-    display: flex;
-    align-items: center;
-    user-select: none;
+.filter__checkbox {
+    position: relative;
+    margin-bottom: 10px;
 }
 
-
-.fliter__input {
+.filter__input {
+    -webkit-appearance: none;
+    appearance: none;
     position: absolute;
-    z-index: -1;
-    opacity: 0;
 }
 
-/* создание в label псевдоэлемента before со следующими стилями */
-.fliter__checkbox>.fliter__label-text::before {
-    content: "";
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    flex-shrink: 0;
-    flex-grow: 0;
-    border-radius: 4px;
-    margin-right: 8px;
-    background-color: #ffffff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 50% 50%;
+.filter__label {
+    padding-left: 44px;
+    font-size: 15px;    
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
     cursor: pointer;
+
+    &::before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 24px;
+        height: 24px;
+        border: 1.5px solid rgba(0, 0, 0, 0.2);
+        top: 4px;
+        left: 0;
+        z-index: 1;
+        transition: background .1s linear;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 14px;
+        height: 11px;
+        background: url(../img/icons/check.svg) no-repeat;        
+        left: 5px;
+        top: 10px;
+        z-index: 2;
+        opacity: 0;
+        transition: opacity .1s linear;
+    }
 }
 
-/* стили для чекбокса, находящегося в состоянии checked */
+.filter__input:checked + .filter__label::before {
+    background-color: #E31937;
+}
 
-.fliter__input:checked+.fliter__label-text::before {
-    background-image: url("../img/icons/check.svg");
-    background-size: 80%;
-    background-position: 2px 0;
-    background-color: red;
-    border: 1px solid red;
-    text-align: left;
+.filter__input:checked + .filter__label::after {
+    opacity: 1;
 }
