@@ -1,0 +1,137 @@
+.contacts {
+    background-color: #e5e5e5;
+}
+
+.contacts__top {
+    background-image: url(../img/background/contacts.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    min-height: 371px;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+}
+
+.contacts__title {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #fff;    
+}
+
+.contacts__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 100px;    
+    margin-bottom: 90px;
+    background-color: #fff;
+}
+
+.contacts__info {
+    max-width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contacts__items {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__item-title {
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+}
+
+.contacts__item {
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.8);
+
+    &+& {
+        margin-top: 20px;
+    }
+}
+
+.contacts__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts__socials {
+    border: 1px solid rgba(0, 0, 0, 0.7);
+
+    svg path {
+        fill: rgba(0, 0, 0, 0.8);
+    }
+}
+
+.contacts__feedback {
+    max-width: 410px;
+}
+
+.contacts__feedback-title {
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.contacts__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__input {
+    height: 35px;
+    font-size: 14px;    
+    line-height: 25px;
+    font-weight: 300;
+    color: #000;
+    border-bottom: 1px solid #000;
+
+    &+& {
+        margin-top: 27px;
+    }  
+}
+
+.contacts__textarea {
+    margin-top: 33px;
+    min-height: 94px;
+    font-size: 14px;    
+    line-height: 25px;
+    font-weight: 300;
+    resize: none;
+    border-bottom: 1px solid #000;
+}
+
+.contacts__terms {
+    margin-top: 27px;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.contacts__terms-decor {
+    text-decoration: underline;
+}
+
+.contacts__button {
+    margin-top: 12px;
+    width: 196px;
+    height: 48px;
+    padding: 0;
+    background-color: #fff;
+}
+
+.contacts__map {
+    max-height: 504px;
+}

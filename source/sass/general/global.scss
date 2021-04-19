@@ -167,3 +167,13 @@ a {
       border: 1px solid #000;
   }
 }
+
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder  {
+  /* WebKit browsers */
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  font-weight: 300;
+}
