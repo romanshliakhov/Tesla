@@ -1,0 +1,117 @@
+.parts {
+    background: #e5e5e5;
+}
+
+.parts__wrapper {
+    display: flex;
+    justify-content: space-between;    
+    padding-bottom: 100px;
+}
+
+.parts__menu {
+    min-width: 300px;
+    max-height: 722px;
+    background-color: #fff;
+}
+
+.parts__nav {
+    padding: 35px 40px;
+}
+
+.parts__nav-item {
+    height: 45px;
+    line-height: 29px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+    cursor: pointer;
+
+    &+& {
+        margin-top: 15px;
+    }
+
+    &:last-of-type {
+        border-bottom: none;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        background-image: url(../img/icons/link-right.svg);  
+        background-repeat: no-repeat;      
+        right: 0;
+        top: 20%;
+        width: 6px;
+        height: 12px;
+    }  
+}
+
+
+.parts__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.parts__catalog {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.parts__catalog-item {
+    max-width: 300px;
+    min-height: 374px;
+    margin-bottom: 30px;    
+    background-color: #fff;  
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-between;
+}
+
+.parts__item-image {
+    height: 217px;
+}
+
+.parts__item-info {
+    padding: 15px 22px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.parts__item-title {
+    padding-bottom: 27px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.parts__item-id {    
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.8);    
+}
+
+.parts__item-price {
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #E31937;
+    position: relative;
+    cursor: pointer;
+
+    &::after {
+        content: '';
+        position: absolute;
+        background-image: url(../img/icons/arrow-next.png);
+        background-repeat: no-repeat;
+        right: 0;
+        top: 40%;
+        width: 39px;
+        height: 14px;
+    }
+
+}
