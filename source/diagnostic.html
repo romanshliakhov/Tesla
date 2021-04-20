@@ -49,35 +49,32 @@
 
         <section class="diagnostic__apply">
           <div class="container">
-            <div class="diagnostic__apply-inner">
-              <div class="diagnostic__apply-left">
-                <div class="diagnostic__apply-title title">
-                  Подача заявки на обслуживание <span class="title__red">Tesla</span>
-                </div>
-
-                <form class="diagnostic__form">
-                  <label>
-                    <input type="text" placeholder="Ваше имя">
-                    <input type="tel" placeholder="Номер телефона">
+            <div class="diagnostic__apply-inner">            
+              <div class="diagnostic__contacts">
+                <div class="diagnostic__contacts-title title">Подача заявки на обслуживание <span class="title__red">Tesla</span></div>
+                <form class="diagnostic__form contacts__form">
+                  <label class="contacts__label">
+                    <input class="diagnostic__input contacts__input" type="text" placeholder="Ваше имя">
+                    <input class="diagnostic__input contacts__input" type="tel" placeholder="Номер телефона">
                   </label>
-                  <label>
-                    <input type="text" placeholder="Модель автомобиля">
-                    <input type="text" placeholder="Год выпуска">
-                  </label>
-                  <textarea placeholder="Опишите причину обращения в сервис"></textarea>
-                  <div class="diagnostic__form-ps">
-                    <p>Нажимая на кнопку, я даю согласие на обработку персональных данных в соответствии с
-                      законодательством РМ и пользовательским соглашением.</p>
-                    <button>отправить</button>
-                  </div>
+                  <label class="contacts__label">
+                    <input class="diagnostic__input contacts__input" type="text" placeholder="Модель автомобиля">
+                    <input class="diagnostic__input contacts__input" type="text" placeholder="Год выпуска">
+                  </label> 
+                  <label class="contacts__label">
+                    <input class="diagnostic__input contacts__input" type="text" placeholder="Опишите причину обращения в сервис">                    
+                  </label>                                 
+                  <div class="diagnostic__form-bot">
+                    <p class="diagnostic__terms contacts__terms">Нажимая на кнопку, я даю согласие на обработку персональных данных в соответствии с
+                      законодательством РМ и <span class="contacts__terms-decor">пользовательским соглашением.</span></p>
+                    <button class="diagnostic__button button">отправить</button>
+                  </div>                 
                 </form>
+              </div>
 
-              </div>
-              <div class="diagnostic__apply-right">
-                <div class="diagnostic__right-image">
-                  <img class="diagnostic__right-img" src="img/background/diagnostic-right.png" alt="">
-                </div>
-              </div>
+              <div class="diagnostic__apply-bg">
+                <img class="diagnostic__apply-img" src="img/background/diagnostic-right.png" alt="">
+              </div>              
             </div>
           </div>
         </section>
