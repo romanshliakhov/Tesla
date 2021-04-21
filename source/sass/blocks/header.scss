@@ -1,6 +1,100 @@
-.header {
-    height: 80px;
-    background-color: red;
+.header {       
     position: relative;
     z-index: 1;
 }
+
+.header__inner {
+    max-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo-link {
+    max-height: 80px;
+    position: relative;
+    z-index: 20;
+}
+
+.header__nav {
+    min-width: 785px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-list {
+    display: flex;    
+}
+
+.header__nav-item + .header__nav-item {
+    margin-left: 40px;
+}
+
+.header__nav-link {
+    line-height: 18px;
+    color: #fff;
+}
+
+.header__nav-link--invert {
+    color: #000;
+}
+
+.header__nav-search {
+    display: flex;
+    cursor: pointer;
+}
+
+.header__nav-search--invert {
+    svg path {
+        fill: #000;
+    }
+}
+
+.header__info {
+    min-width: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header__info--invert {
+    color: #000;
+}
+
+.header__language {
+    display: flex;
+    font-size: 14px;
+}
+
+.header__lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    height: 42px;
+    width: 42px;
+    color: rgba(255, 255, 255, 0.5);  
+}
+
+.header__lang--invert {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.header__lang-active {
+    border: 1px solid #fff;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1); 
+}
+
+.header__lang-active--invert {
+    border: 1px solid #000;
+    color: #000;
+}
+
+
+
+

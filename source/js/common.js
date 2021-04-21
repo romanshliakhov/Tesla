@@ -1,3 +1,8 @@
+$(".burger__inner").click(function(event) {
+    $(".burger__inner").toggleClass('burger__inner-active'),
+    $(".burger__body").toggleClass('burger__body-active');
+});
+
 $(function(){
     $('.stock__slider-inner').slick({
 		prevArrow: '.stock__arrow-prev',        
@@ -102,6 +107,7 @@ $(".polzunok-5").slider({
 	}
   });
 // polzunok end 
+
 
 
 
