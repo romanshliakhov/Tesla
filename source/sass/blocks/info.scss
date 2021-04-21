@@ -1,8 +1,8 @@
-.info {    
+.info {
     background-image: url(../img/background/info.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;  
+    background-size: cover;
 }
 
 .info__inner {
@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .info__content {
@@ -26,7 +27,7 @@
 
 .info__right {
     max-width: 700px;
-    text-transform: uppercase;    
+    text-transform: uppercase;
 }
 
 .info__title {
@@ -34,7 +35,7 @@
     font-size: 36px;
     line-height: 50px;
     font-weight: 300;
-    
+
 }
 
 .info__title-red {
@@ -51,7 +52,7 @@
     max-width: 295px;
 }
 
-.info__list-item {    
+.info__list-item {
     font-size: 14px;
     line-height: 16px;
     font-weight: 500;
@@ -70,10 +71,61 @@
 }
 
 .info__contacts {
+    position: absolute;
+    bottom: -47px;
     min-height: 133px;
     min-width: 946px;
     background-color: #000;
-    margin-bottom: 50px;
+    padding: 23px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info__contacts-items {
+    display: flex;
+    align-items: center;
+
+    &:first-child {
+        display: block;
+    }
+}
+
+.info__contacts-title,
+.info__record-link {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.info__contacts-item {
+    color: #fff;
+}
+
+.info__record-icon {
+    border: 1px solid #fff;
+    height: 68px;
+    width: 68px;
+    transition: all 0.2s linear;
+
+    svg path {
+        width: 34px;
+        height: 34px;
+        fill: #fff;
+    }
+
+    &:hover {
+        background-color: #fff;
+
+        svg path {
+            fill: #000;
+        }
+    }
+}
+
+
+.info__record-link {
+    margin-left: 30px;        
 }
 
 .info__text {
