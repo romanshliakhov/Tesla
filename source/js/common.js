@@ -3,6 +3,7 @@ $(".burger__inner").click(function(event) {
     $(".burger__body").toggleClass('burger__body-active');
 });
 
+// stock slider
 $(function(){
     $('.stock__slider-inner').slick({
 		prevArrow: '.stock__arrow-prev',        
@@ -15,6 +16,7 @@ $(function(){
     });   
 });
 
+// last video slider
 $(function(){
     $('.latest__slider-inner').slick({
 		prevArrow: '.latest__arrow-prev',        
@@ -27,6 +29,7 @@ $(function(){
     });   
 });
 
+// last news slider
 $(function(){
     $('.carsnews__slider-inner').slick({
 		prevArrow: '.carsnews__arrow-prev',        
@@ -39,6 +42,31 @@ $(function(){
     });   
 });
 
+// parts card slider
+$(function(){
+    $('.spares__slider-inner').slick({
+        arrows: false,
+		dots: false,        
+        asNavFor: '.spares__preview-inner',            
+    }); 
+
+    $('.spares__preview-inner').slick({
+        arrows: false,
+		dots: false,   
+		rows: 1,
+		slidesPerRow: 1, 
+		vertical: true, 
+		slidesToShow: 3,      
+        slidesToScroll: 1,  
+        asNavFor: '.spares__slider-inner',    
+        focusOnSelect: true,           
+        variableWidth: false,                
+    }); 
+   
+});
+
+
+
 // tabs start
 $(function () {	
 	$('.galery__tab').on('click', function(e){
@@ -50,7 +78,7 @@ $(function () {
 	  $($(this).attr('href')).addClass('galery__tab--active');
 	});	
   });
-// tabs end
+
 
 // accordion start
 $('.filter__header').click(function(){
