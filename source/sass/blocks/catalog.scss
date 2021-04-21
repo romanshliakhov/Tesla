@@ -12,6 +12,7 @@
 .catalog__filters {
     min-width: 300px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;    
 }
 
@@ -42,14 +43,14 @@
     display: flex;
     flex-wrap: wrap; 
     align-items: center;   
+    justify-content: space-between;
 }
 
 .catalog__product {
-    margin-bottom: 30px;
-    margin-right: 30px;
-    background-color: #fff;
+    margin-bottom: 30px;    
+    background-color: #fff;    
+}
 
-    &:nth-child(3n) {
-        margin-right: 0;
-    }
+.catalog__car {
+    background-color: #e5e5e5;    
 }

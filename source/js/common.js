@@ -42,6 +42,28 @@ $(function(){
     });   
 });
 
+// cars card slider 
+$(function(){
+    $('.car__slider-inner').slick({
+		slidesToShow: 3, 
+        arrows: false,
+		dots: false,        
+        asNavFor: '.car__preview-inner',            
+    }); 
+
+    $('.car__preview-inner').slick({
+        arrows: false,
+		dots: false, 	 
+		slidesToShow: 6,      
+        slidesToScroll: 1,  
+        asNavFor: '.car__slider-inner',    
+        focusOnSelect: true,           
+        variableWidth: false,                
+    }); 
+   
+});
+
+
 // parts card slider
 $(function(){
     $('.spares__slider-inner').slick({
@@ -74,8 +96,8 @@ $(function () {
 	  $('.galery__tab').removeClass('galery__tab-active');
 	  $('.galery__content').removeClass('galery__tab--active');
   
-	  $(this).addClass('galery__tab-active');
 	  $($(this).attr('href')).addClass('galery__tab--active');
+	  $(this).addClass('galery__tab-active');	  
 	});	
   });
 
@@ -87,6 +109,7 @@ $('.filter__header').click(function(){
 // accordion end
 
 // polzunok start 
+
 $(".polzunok-5").slider({
 	min: 0,
 	max: 100000,
@@ -134,6 +157,8 @@ $(".polzunok-5").slider({
 	  $(".polzunok-5").slider("values", 1, input_right);
 	}
   });
+
+
 // polzunok end 
 
 

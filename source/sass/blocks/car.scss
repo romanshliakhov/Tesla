@@ -1,0 +1,168 @@
+.car__top {
+    min-height: 650px;
+    background-color: #fff;
+}
+
+.car__slider-item {
+    height: 537px;
+    width: 948px;
+}
+
+.car__slider-image {
+    width: 950px;
+}
+
+.car__preview-slider {
+    margin-top: 10px;
+}
+
+.car__preview-item {    
+    height: 103px;
+}
+
+.car__preview-image {
+    width: 140px;
+}
+
+
+.car__mid {
+    margin-top: 50px;
+    padding: 20px 40px;
+    background-color: #fff;
+}
+
+.car__mid-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.car__mid-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}
+
+.car__info-title {
+    font-size: 22px;
+    line-height: 31px;
+    text-transform: uppercase;
+}
+
+.car__info-id {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.car__info-item:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.car__info-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &+& {
+        margin-left: 60px;
+    }
+}
+
+.car__info-img {
+    width: 40px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.car__info-details {
+    line-height: 21px;
+}
+
+.car__info-status {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #21CE47;
+    text-transform: uppercase;
+}
+
+.car__info-price {
+    font-size: 26px;
+    line-height: 41px;
+    color: #E31937;
+}
+
+.car__status-descr {
+    display: flex;
+    align-items: center;
+}
+
+.car__status-list+.car__status-list {
+    margin-left: 50px;
+}
+
+.car__status-info {
+    line-height: 20px;
+
+    &:first-of-type {
+        font-size: 14px;
+        line-height: 18px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    img {
+        width: 30px;
+        height: 20px;
+    }
+}
+
+.car__mid-btn {
+    padding: 11px 13px;
+}
+
+.car__bot {
+    margin-top: 40px;
+    padding: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.car__bot-item {
+    width: 376px;
+}
+
+.car__bot-title {
+    display: flex;
+    justify-content: center;
+    line-height: 19px;
+    font-weight: 500;
+}
+
+.car__bot-info {
+    margin-top: 20px;
+}
+
+.car__bot-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    line-height: 20px;
+    padding: 0 13px;
+
+
+    &:nth-child(odd) {
+        background-color: #e5e5e5;
+    }
+}
+
+.car__bot-descr:first-of-type {
+    color: rgba(0, 0, 0, 0.8);
+}

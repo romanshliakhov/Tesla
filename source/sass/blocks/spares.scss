@@ -14,15 +14,16 @@
     justify-content: space-between;
 }
 
-.spares__preview {
-    max-width: 140px;   
+.spares__preview {    
+    width: 140px;  
+    
 }
 
-.spares__preview-items .slick-current {
-    margin-bottom: 10px;
+.spares__preview-item+ .spares__preview-item {
+    margin-top: 10px;
 }
 
-.spares__preview-items .slick-current.slick-active {
+.spares__preview-item .slick-current.slick-active {
     outline: 1px solid #E31937;
 }
 
@@ -36,11 +37,6 @@
     width: 584px;
     height: 537px;
 }
-
-
-
-
-
 
 .spares__info-right {
     min-width: 520px;

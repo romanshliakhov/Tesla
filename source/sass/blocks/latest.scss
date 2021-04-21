@@ -9,9 +9,19 @@
     flex-direction: column;
 }
 
-.latest__video {    
-    height: 305px;
+.latest__video {  
+    width: 410px;  
+    height: 320px;
     outline: none;
+}
+
+.latest__video+.latest__video {
+    margin-left: 30px;
+}
+
+.latest__video-preview {
+    height: 230px;
+    
 }
 
 .latest__video-title {
