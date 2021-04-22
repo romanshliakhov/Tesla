@@ -87,6 +87,7 @@
     font-weight: 500;
     color: #E31937;
 }
+
 .spares__buy-count {
     display: flex;
     align-items:center;
@@ -94,11 +95,27 @@
     margin-top: 15px;
 }
 
-.spares__count {
-    height: 65px;   
-    min-width: 161px;
-    background-color: #ccc;
+.spares__counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
 }
+
+.spares__conter-btn {
+    width: 52px;
+    height: 52px;
+    background-color: #e5e5e5;
+}
+
+.spares__counter-value {
+    display: flex;
+    text-align: center;
+    width: 52px;
+    height: 52px;
+    background-color: #fff;    
+}
+
+
 
 .spares__buy-btn {
     padding: 23px 84px;
