@@ -149,6 +149,11 @@ a {
   text-transform: uppercase;
   border: 1px solid #000;
   background-color: #E5E5E5;
+  transition: 0.4s ease-out;
+
+  &:hover {
+    background-color: #fff;
+  }
 }
 
 .button {

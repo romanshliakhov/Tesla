@@ -62,14 +62,24 @@
 .contacts__list {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
 }
 
 .contacts__socials {
     border: 1px solid rgba(0, 0, 0, 0.7);
+    transition: 0.4s ease-out;
+
+    &:hover {
+        border: 1px solid #fff;
+        background-color: rgba(0, 0, 0, 0.7);
+
+        svg path {
+            fill: #fff;
+        }
+    }
 
     svg path {
-        fill: rgba(0, 0, 0, 0.8);
+        fill: rgba(0, 0, 0, 0.8);       
     }
 }
 
