@@ -10,7 +10,7 @@
 }
 
 .stock__slider {
-    max-height: 447px;
+    height: 100%;
 }
 
 .stock__arrows {
@@ -33,17 +33,23 @@
 
 
 .stock__slider-car {        
-    min-height: 447px;
-    background-color: #fff;    
+    min-height: 447px;       
     outline: none;
 }
 
 .stock__car-info {
+    background-color: #fff; 
+    width: 300px;
     padding: 25px 22px 19px;
 }
 
 .stock__car-image {    
     height: 299px;
+    width: 300px;
+}
+
+.stock__car-img {
+
 }
 
 .stock__car-title {    
