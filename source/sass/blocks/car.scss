@@ -1,19 +1,45 @@
 .car__top {
-    min-height: 650px;
-    background-color: #fff;
+    
 }
 
 .car__slider-item {
-    height: 537px;
-    width: 948px;
+    width: 948px !important;
 }
 
 .car__slider-image {
     width: 950px;
+    height: 537px;
 }
 
-.car__preview-slider {
+.car__preview-slider {   
+    max-width: 1040px;
+    margin: 0 auto;
     margin-top: 10px;
+}
+
+.car__slider-wrapp {
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 170px;
+        height: 100%;
+        top: 0;
+        background-color:rgba(0, 0, 0, 0.6) ;
+        z-index: 3;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 170px;
+        height: 100%;
+        background-color:rgba(0, 0, 0, 0.6) ;
+    }
 }
 
 .car__preview-item {    
@@ -22,6 +48,7 @@
 
 .car__preview-image {
     width: 140px;
+    margin: 0 auto;
 }
 
 

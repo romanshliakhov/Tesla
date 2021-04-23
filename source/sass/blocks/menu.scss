@@ -6,19 +6,30 @@
     min-height: 722px;
     background: #fff; 
     padding-top: 20px;   
+    position: relative;
      
 }
 
-.menu__main-list {   
-    position: relative;  
+.menu__main-list {          
     margin: 20px 40px;        
 
-    &:hover {     
+    &:hover {              
         background-color: #e5e5e5;
         
         .menu__sec {
+            border-left: 20px solid transparent;
             opacity: 1;
             top: 0;
+
+            &::before {
+                content: '';
+                width: 40px;
+                top: 0;
+                bottom: 0;
+                position: absolute;
+                left: -60px;
+                background-color:transparent;
+            }
         }
     }
 

@@ -12,7 +12,7 @@ $(function(){
 		slidesToShow: 4,
 		slidesToScroll: 1,
 		// adaptiveHeight: true,
-		variableWidth: false   
+		// variableWidth: true 
     });   
 });
 
@@ -45,7 +45,10 @@ $(function(){
 // cars card slider 
 $(function(){
     $('.car__slider-inner').slick({
-		slidesToShow: 3, 
+		slidesToShow: 1, 
+		slidesToScroll: 1, 
+		centerMode: true,
+		variableWidth: true,
         arrows: false,
 		dots: false,        
         asNavFor: '.car__preview-inner',            
