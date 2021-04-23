@@ -1,5 +1,6 @@
 .spares__inner {
     background: #e5e5e5;
+    
 }
 
 .spares__info {
@@ -16,7 +17,6 @@
 
 .spares__preview {    
     width: 140px;  
-    
 }
 
 .spares__preview-item+ .spares__preview-item {
@@ -169,4 +169,12 @@
 
 .spares__viewed {
     padding: 0;
+}
+
+.spares__recent-wrapp {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }

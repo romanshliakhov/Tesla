@@ -13,6 +13,36 @@ $(function(){
 		slidesToScroll: 1,
 		// adaptiveHeight: true,
 		// variableWidth: true 
+		responsive: [
+			{
+			breakpoint: 1199,
+			settings: {
+				slidesToShow: 4,
+				slidesToScroll: 1,				
+			  	}
+			},
+			{
+			breakpoint: 1024,
+			settings: {
+				slidesToShow: 3,				
+				slidesToScroll: 1,			
+				}
+			},
+			{
+			breakpoint: 769,
+			settings: {
+				slidesToShow: 2,				
+				slidesToScroll: 1,			
+				}
+			},
+			{
+			breakpoint: 575,
+			settings: {
+				slidesToShow: 1,				
+				slidesToScroll: 1,			
+				}
+			},							
+		]
     });   
 });
 
@@ -38,7 +68,37 @@ $(function(){
 		slidesToShow: 4,
 		slidesToScroll: 1,  
 		// adaptiveHeight: true,
-		// variableWidth: true  	  
+		// variableWidth: true 
+		responsive: [
+			{
+			breakpoint: 1199,
+			settings: {
+				slidesToShow: 4,
+				slidesToScroll: 1,				
+			  	}
+			},
+			{
+			breakpoint: 1024,
+			settings: {
+				slidesToShow: 3,				
+				slidesToScroll: 1,			
+				}
+			},
+			{
+			breakpoint: 769,
+			settings: {
+				slidesToShow: 2,				
+				slidesToScroll: 1,			
+				}
+			},
+			{
+			breakpoint: 575,
+			settings: {
+				slidesToShow: 1,				
+				slidesToScroll: 1,			
+				}
+			},							
+		] 	  
     });   
 });
 
@@ -57,11 +117,34 @@ $(function(){
     $('.car__preview-inner').slick({
         arrows: false,
 		dots: false, 	 
-		slidesToShow: 6,      
+		slidesToShow: 7,      
         slidesToScroll: 1,  
         asNavFor: '.car__slider-inner',    
         focusOnSelect: true,           
-        variableWidth: false,                
+        variableWidth: false,   
+		responsive: [
+			{
+			breakpoint: 1199,
+			settings: {
+				slidesToShow: 7,
+				slidesToScroll: 1,				
+			  	}
+			},
+			{
+			breakpoint: 1024,
+			settings: {
+				slidesToShow: 6,				
+				slidesToScroll: 1,			
+				}
+			},
+			{
+			breakpoint: 769,
+			settings: {
+				slidesToShow: 6,				
+				slidesToScroll: 1,			
+				}
+			},									
+		] 	               
     }); 
    
 });
@@ -115,17 +198,17 @@ const counter = function () {
 counter();
 
 //search start 
-const search = document.querySelector('.header__search');
-const body = document.querySelector('body');
+// const search = document.querySelector('.header__search');
+// const body = document.querySelector('body');
 
-search.addEventListener('click', function (e) {
-	e.stopPropagation();
-	this.classList.add('header__search-active');	
-});
+// search.addEventListener('click', function (e) {
+// 	e.stopPropagation();
+// 	this.classList.add('header__search-active');	
+// });
 
-body.addEventListener('click', function (e) {	
-	search.classList.remove('header__search-active');	
-});
+// body.addEventListener('click', function (e) {	
+// 	search.classList.remove('header__search-active');	
+// });
 
 // tabs start
 $(function () {	
