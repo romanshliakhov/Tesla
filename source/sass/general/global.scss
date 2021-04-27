@@ -94,7 +94,7 @@ a {
 }
 
 .container {
-  max-width: 1290px;
+  max-width: 1286px;
   margin: 0 auto;
 
 }
@@ -112,7 +112,7 @@ a {
 }
 
 .title__red {
-  color: red;
+  color: #E31937;
 }
 
 .top {
@@ -158,17 +158,17 @@ a {
 
 .button {
   padding: 10px 75px;
-  border: 1px solid red;
+  border: 1px solid #E31937;
   font-size: 14px;
   font-weight: 500;
-  color: red;
+  color: #E31937;
   text-transform: uppercase;
   transition: 0.7s ease;
 
   &:hover {
       color: #fff;
-      background-color: red;
-      border: 1px solid #000;
+      background-color: #E31937;
+      border: 2px solid #000;
   }
 }
 
@@ -180,6 +180,7 @@ a {
   color: rgba(0, 0, 0, 0.3);
   font-size: 14px;
   font-weight: 300;
+  font-style: italic;
 }
 
 

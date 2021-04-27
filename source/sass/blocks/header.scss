@@ -30,7 +30,7 @@
 
 .header__nav-item:hover {
     border-bottom: 1px solid #FFFF;
-    transition: border 0.3s linear;
+    transition: border 0.5s linear;
 }
 
 .header__nav-item+.header__nav-item {
@@ -39,12 +39,24 @@
 
 .header__nav-item--invert:hover {
     border-bottom: 1px solid #000;
+    transition: border 0.5s linear;
 }
 
 
 .header__nav-link {
     line-height: 18px;
     color: #fff;
+}
+
+.header__nav-active {
+    font-weight: 500;
+    border-bottom: 1px solid #fff;
+}
+
+
+.header__nav-active--invert {
+    font-weight: 500;
+    border-bottom: 1px solid #000;
 }
 
 .header__nav-link--invert {
@@ -118,6 +130,7 @@
     justify-content: space-between;
     color: #fff;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .header__info--invert {

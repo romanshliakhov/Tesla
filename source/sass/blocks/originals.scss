@@ -60,5 +60,11 @@
 
 .originals__link {
     margin-top: 50px;
+    border: 2px solid #E31937;
 
+    &:hover {
+        color: #fff;
+        background-color: #E31937;
+        border: 2px solid #000;
+    }
 }

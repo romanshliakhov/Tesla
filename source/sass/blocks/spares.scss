@@ -16,17 +16,23 @@
 }
 
 .spares__preview {    
-    width: 140px;  
+    max-width: 144px;  
 }
 
-.spares__preview-item+ .spares__preview-item {
-    margin-top: 10px;
+.spares__preview-wrapp { 
+    display: flex;       
+    margin: auto 0;     
 }
 
-.spares__preview-item .slick-current.slick-active {
-    outline: 1px solid #E31937;
+.spares__preview-image {
+    max-width: 139px;
+    max-height: 103px;
 }
 
+
+.spares__preview-item.slick-slide.slick-current.slick-active {
+    border: 3px solid #E31937;
+}
 
 .spares__slider {
     max-width: 584px;
@@ -116,7 +122,6 @@
 }
 
 
-
 .spares__buy-btn {
     padding: 23px 84px;
     background-color: #fff;
@@ -141,12 +146,6 @@
 .spares__detail-descr {
     width: 50%;
 }
-
-
-
-
-
-
 
 .spares__description {
     margin-top: 30px;

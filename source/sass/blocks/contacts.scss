@@ -114,7 +114,8 @@
     font-size: 14px;    
     line-height: 25px;
     font-weight: 300;
-    color: #000;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.3);    
     border-bottom: 1px solid #000;    
 }
 
@@ -128,8 +129,10 @@
     font-size: 14px;    
     line-height: 25px;
     font-weight: 300;
+    font-style: italic;
     resize: none;
     border-bottom: 1px solid #000;
+    color: rgba(0, 0, 0, 0.3);
 }
 
 .contacts__terms {
@@ -137,6 +140,7 @@
     font-size: 12px;
     line-height: 15px;
     font-weight: 300;
+    font-style: italic;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -148,10 +152,22 @@
     margin-top: 12px;
     width: 196px;
     height: 48px;
+    font-weight: 400;
     padding: 0;
     background-color: #fff;
 }
 
 .contacts__map {
     max-height: 504px;
+}
+
+.contacts__input::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder  {
+  /* WebKit browsers */
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
 }
