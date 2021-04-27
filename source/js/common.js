@@ -105,11 +105,12 @@ $(function(){
 // cars card slider 
 $(function(){
     $('.car__slider-inner').slick({
+		prevArrow: '.car__arrow-prev',        
+		nextArrow: '.car__arrow-next',	
 		slidesToShow: 1, 
 		slidesToScroll: 1, 
 		centerMode: true,
-		variableWidth: true,
-        arrows: false,
+		variableWidth: true,        
 		dots: false,        
         asNavFor: '.car__preview-inner',            
     }); 
@@ -196,19 +197,6 @@ const counter = function () {
   }
   
 counter();
-
-//search start 
-// const search = document.querySelector('.header__search');
-// const body = document.querySelector('body');
-
-// search.addEventListener('click', function (e) {
-// 	e.stopPropagation();
-// 	this.classList.add('header__search-active');	
-// });
-
-// body.addEventListener('click', function (e) {	
-// 	search.classList.remove('header__search-active');	
-// });
 
 // tabs start
 $(function () {	
