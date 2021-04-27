@@ -1,5 +1,5 @@
 .stock {
-    background-color: #E5E5E5;    
+    background-color: #F3F2F5;    
 }
 
 .stock__inner {
@@ -66,14 +66,14 @@
 .stock__car-details {
     display: flex;
     justify-content: space-between;
-    text-align: center;
-    padding-top: 30px;
+    text-align: center;    
 }
 
 .stock__car-detail {
     max-width: 90px;
     font-size: 12px;
     line-height: 20px;
+    text-transform: uppercase;
     color: rgba( 0, 0, 0, 0.5);
 }
 

@@ -45,7 +45,7 @@
 }
 
 .diagnostic__services {
-    background-color: #E5E5E5;
+    background-color: #F3F2F5;
     padding: 100px 0;
 }
 
@@ -75,21 +75,20 @@
 }
 
 .diagnostic__apply {
-    background-color: #E5E5E5;
+    background-color: #F3F2F5;
     padding-bottom: 100px;
 }
 
 .diagnostic__apply-inner {
     padding: 75px 0;
-    background-color: #fff;
+    background-color: #F7F7F7;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 .diagnostic__contacts {
-    max-width: 600px;
-    padding-left: 80px;
+    max-width: 600px;    
 }
 
 .diagnostic__form {
@@ -98,6 +97,7 @@
 
 .diagnostic__input {
     width: 100%;
+    background-color: #F7F7F7;
 }
 
 .diagnostic__form-bot {
@@ -114,6 +114,9 @@
 .diagnostic__button {
     width: 196px;
     height: 48px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
     padding: 0;
     background-color: #fff;
 }

@@ -1,5 +1,5 @@
 .catalog {
-    background: #e5e5e5;
+    background: #F3F2F5;
 }
 
 .catalog__wrapper {
@@ -30,6 +30,14 @@
 
 .catalog__button {
     width: 100%;
+    background-color: #F3F2F5;
+    padding: 0;
+    height: 53px;
+    font-weight: 400;
+
+    &:hover {
+        border: 1px solid #000;
+    }
 }
 
 .catalog__box {
@@ -52,5 +60,5 @@
 }
 
 .catalog__car {
-    background-color: #e5e5e5;    
+    background-color: #F3F2F5;    
 }

@@ -31,7 +31,7 @@
 
 .filter__checkbox {
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .filter__input {
@@ -54,10 +54,10 @@
         width: 24px;
         height: 24px;
         border: 1.5px solid rgba(0, 0, 0, 0.2);
-        top: 4px;
+        top: 3px;
         left: 0;
         z-index: 1;
-        transition: background .1s linear;
+        transition: all .1s linear;
     }
 
     &::after {

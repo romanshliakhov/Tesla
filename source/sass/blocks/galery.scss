@@ -1,5 +1,6 @@
 .galery {
     margin: -80px;
+    padding-bottom: 50px;
 }
 
 .galery__top {
@@ -24,13 +25,14 @@
 .galery__inner {
     min-height: 680px;
     padding-bottom: 100px;
-    background-color: #e5e5e5;
+    background-color: #F3F2F5;
 }
 
 .galery__tabs {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .galery__tab {
@@ -69,8 +71,7 @@
     color: #E31937;
 }
 
-.galery__wrapp {
-    margin-top: 40px;    
+.galery__wrapp {        
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;    

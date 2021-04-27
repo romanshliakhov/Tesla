@@ -30,7 +30,7 @@
 
 .header__nav-item:hover {
     border-bottom: 1px solid #FFFF;
-    transition: border 0.5s linear;
+    transition: border 0.3s linear;
 }
 
 .header__nav-item+.header__nav-item {
@@ -39,7 +39,7 @@
 
 .header__nav-item--invert:hover {
     border-bottom: 1px solid #000;
-    transition: border 0.5s linear;
+    transition: border 0.3s linear;
 }
 
 
