@@ -96,17 +96,19 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    
     .footer__contacts {
         padding: 0;
         color: #fff;
     }
 
+    
+
     .footer__contacts-box {
         margin-left: 0;
         min-width: 580px;
     }
-
+    
     .footer__record-icon {
         border: 1px solid #fff;   
         transition: 0.3s ease-in-out;   

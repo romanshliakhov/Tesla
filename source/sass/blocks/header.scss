@@ -128,9 +128,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 500;
+    color: #fff;   
+    
 }
 
 .header__info--invert {
@@ -140,6 +139,8 @@
 .header__language {
     display: flex;
     font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .header__lang {
@@ -166,4 +167,8 @@
 .header__lang-active--invert {
     border: 1px solid #000;
     color: #000;
+}
+
+.header__phone {
+    font-weight: 500;
 }
