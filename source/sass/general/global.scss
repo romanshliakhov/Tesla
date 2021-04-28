@@ -99,7 +99,7 @@ a {
 
 }
 
-.container__fluid {  
+.container__fluid {
   max-width: 1366px;
   margin: 0 auto;
 }
@@ -166,21 +166,20 @@ a {
   transition: 0.7s ease;
 
   &:hover {
-      color: #fff;
-      background-color: #E31937;
-      border: 2px solid #000;
+    color: #fff;
+    background-color: #E31937;
+    border: 2px solid #000;
   }
 }
 
 ::-webkit-input-placeholder,
 :-moz-placeholder,
 ::-moz-placeholder,
-:-ms-input-placeholder  {
+:-ms-input-placeholder {
   /* WebKit browsers */
   color: rgba(0, 0, 0, 0.3);
   font-size: 14px;
   font-weight: 300;
   font-style: italic;
 }
-
 
