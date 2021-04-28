@@ -17,6 +17,10 @@
     z-index: 20;
 }
 
+.header__logo {
+    object-fit: contain;
+}
+
 .header__nav {
     min-width: 785px;
     display: flex;
@@ -63,59 +67,7 @@
     color: #000;
 }
 
-.header__search {
-    height: 25px;
-    width: 25px;
-    position: relative;
-}
 
-.header__search-active {
-    .header__search-input {
-        opacity: 1;
-        z-index: 5;
-    }
-
-    .header__search-btn {
-        display: block;
-    }
-
-    .header__search-img {
-        display: none;
-    }
-}
-
-.header__search-input {
-    width: 495px;
-    padding: 10px 5px;
-    font-size: 14px;
-    line-height: 15px;
-    background-color: transparent;
-    color: #fff;
-    border-bottom: 1px solid #fff;
-    position: absolute;
-    right: 0;
-    opacity: 0;
-    z-index: -1;
-    transition-duration: 0.5s;
-    transition-property: opacity;
-    appearance: none;
-}
-
-.header__search-btn {
-    display: none;
-    background: none;
-    appearance: none;
-    width: 25px;
-    position: relative;
-    z-index: 5;
-}
-
-.header__search-img {
-    display: block;
-    cursor: pointer;
-    width: 25px;
-    height: 25px;
-}
 
 .header__nav-search--invert {
     svg path {
