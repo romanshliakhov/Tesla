@@ -4,7 +4,7 @@
 
 .car__slider-arrows {
     position: absolute;
-    top: 40%;
+    top: 47%;
     z-index: 5;
     display: flex;
     width: 100%;
@@ -26,20 +26,26 @@
 }
 
 .car__arrow-prev {
-    left: 8%;
+    left: 9%;
 }
 
 .car__arrow-next {
-    right: 8%;
+    right: 9%;
 }
 
-.car__slider-item {
+.car__slider-wrapp {
     width: 948px;
+    height: 537px;
 }
 
-.car__slider-image {
-    width: 950px;
-    height: 537px;
+.car__slider-image {    
+    height: 100%;
+    width: 100%;
+}
+
+.car__slider-img {
+    object-fit: fill;
+    
 }
 
 .car__preview-slider {   
@@ -96,6 +102,10 @@
 .car__preview-image {
     width: 100%;
     height: 100%;
+}
+
+.car__preview-img {
+    object-fit: cover;
 }
 
 

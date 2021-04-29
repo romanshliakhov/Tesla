@@ -80,6 +80,18 @@ a {
   background-color: transparent;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -100,7 +112,7 @@ a {
 }
 
 .container__fluid {
-  max-width: 1366px;
+  max-width: 1366px;  
   margin: 0 auto;
 }
 
@@ -159,7 +171,7 @@ a {
 .button {
   padding: 10px 75px;
   border: 1px solid #E31937;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   color: #E31937;
   text-transform: uppercase;
