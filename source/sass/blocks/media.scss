@@ -141,6 +141,11 @@
     }
 
     // galery 
+    .galery {
+        .container {
+            width: 1200px;
+        }
+    }
 
     .galery__item {
         max-width: 375px;
@@ -294,7 +299,7 @@
         max-width: 800px;
     }
 
-    .car__preview-wrapp {        
+    .car__preview-wrapp {
         width: 130px;
     }
 
@@ -387,7 +392,7 @@
 
     .diagnostic__apply-inner {
         padding: 50px 0;
-    }    
+    }
 
     .diagnostic__services-title {
         text-align: center;
@@ -406,7 +411,7 @@
         max-width: 400px;
     }
 
-    //news card 
+    // news 
     .news__block {
         max-height: 265px;
     }
@@ -415,7 +420,22 @@
         height: 265px;
     }
 
+    //news card 
+    .publication__inner {
+        padding-bottom: 50px;
+    }
+
+    .publication__title {
+        font-size: 28px;
+        font-weight: 400;
+    }
+
     // galery 
+    .galery__inner {
+        .container {
+            width: 1020px;
+        }
+    }
 
     .galery__wrapp {
         justify-content: space-evenly;
@@ -436,9 +456,10 @@
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 940px) and (max-width: 1024px) {
     .container {
-        width: 750px;
+        min-width: 900px;
+        padding: 0 10px;
     }
 
     .header__nav {
@@ -469,60 +490,65 @@
         min-height: 500px;
     }
 
+
     .info__left {
         margin-left: -100px;
     }
 
     .info__right {
-        max-width: 385px;
+        max-width: 480px;
+    }
+
+    .info__list-inner {
+        justify-content: space-between;
     }
 
     .info__list {
-        max-width: 150px;
+        max-width: 230px;
     }
 
     .info__list-item {
         margin-bottom: 20px;
+
+        &::before {
+            display: none;
+        }
     }
 
     .info__title {
-        font-size: 24px;
+        font-size: 29px;
         line-height: 30px;
-        font-weight: 500;
-        margin-bottom: 40px;
+        font-weight: 300;
+        margin-bottom: 36px;
     }
 
     .info__contacts {
-        min-height: 100px;
-        max-height: 100px;
-        min-width: 685px;
+        min-width: 890px;
     }
 
-    .info__record-icon {
-        height: 45px;
-        width: 45px;
-
-        svg {
-            height: 45px;
-            width: 45px;
-        }
-
-    }
-
-    .info__record-link {
-        margin-left: 10px;
+    .originals__inner {
+        min-height: 900px;
     }
 
     .originals__repair {
         justify-content: space-around;
     }
 
-    .originals__link {
-        margin: 50px;
+    .originals__title {
+        margin-top: 40px;
     }
 
-    .stock__slider-wrapp {
-        max-width: 245px;
+    .originals__link {
+        margin-top: 30px;
+    }
+
+    .stock__inner {
+        padding: 50px 0;
+    }
+
+    .latest {
+        min-height: 100%;
+        padding-bottom: 40px;
     }
 
     .latest__video {
@@ -541,6 +567,9 @@
 
 
     // catalog 
+    .catalog__wrapper {
+        padding-bottom: 50px;
+    }
 
     .catalog__filters {
         max-width: 180px;
@@ -566,23 +595,41 @@
     }
 
     .catalog__box {
-        max-width: 560px;
+        max-width: 705px;
     }
 
     .catalog__product {
         width: 32%;
 
         .stock__car-info {
-            padding: 5px;
+            padding: 5px 15px;
         }
 
         .stock__car-title {
             min-height: 44px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .catalog__product-details {
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .catalog__product-detail {
+        min-width: 90px;
+        margin-bottom: 10px;
+
+        &:last-child {
+            min-width: 100%;
         }
     }
 
     // catalog card 
-    .car__slider {}
+    .car__slider-img {
+        object-fit: cover;
+    }
 
     .car__slider-item {
         max-width: 730px;
@@ -590,13 +637,14 @@
 
     .car__slider-wrapp {
         max-height: 490px;
+        max-width: 740px;
     }
 
     .car__slider-wrapper {
 
         &::after,
         &::before {
-            width: 96px;
+            width: 97px;
         }
     }
 
@@ -608,59 +656,26 @@
         right: 3%;
     }
 
-    .car__mid-btn {
-        padding: 13px 10px;
-    }
-
-
-
     .car__status-list+.car__status-list {
-        margin-left: 15px;
+        margin-left: 25px;
     }
 
-    .car__info-title {
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20px;
-    }
 
-    .car__status-descr {
-        font-size: 13px;
-    }
-
-    .car__status-info:first-of-type {
-        font-size: 12px;
-    }
-
-    .car__mid-btn {
-        padding: 10px 5px;
-    }
-
-    .car__mid {
-        padding: 20px 15px;
-    }
-
-    .car__bot {
-        padding: 10px;
-    }
-
-    .car__bot-info {
-        font-size: 13px;
-    }
 
     // parts    
 
     .menu {
-        min-width: 215px;
+        min-width: 275px;
     }
 
-    .menu__main-list {
-        margin: 20px;
+    .parts__wrapper {
+        padding-bottom: 50px;
     }
 
     .parts__catalog-item {
-        max-width: 235px;
-        min-height: 346px;
+        max-width: 265px;
+        min-height: 390px;
+        justify-content: initial;
     }
 
     .parts__catalog {
@@ -668,11 +683,7 @@
     }
 
     .parts__item-info {
-        padding: 10px 5px;
-    }
-
-    .parts__item-title {
-        font-size: 13px;
+        padding: 17px 12px 20px;
     }
 
     // parts card 
@@ -683,26 +694,8 @@
 
     .spares__info-left {
         margin-bottom: 50px;
+        justify-content: space-evenly;
     }
-
-    .spares__title {
-        font-size: 18px;
-    }
-
-    .spares__item,
-    .spares__buy,
-    .spares__buy-count {
-        margin-top: 10px;
-    }
-
-    .spares__price {
-        line-height: 26px;
-    }
-
-    .spares__buy-btn {
-        padding: 16px 50px;
-    }
-
 
     .spares__recent-wrapp {
         max-width: 241px;
@@ -722,16 +715,12 @@
     }
 
     .diagnostic__work {
-        max-width: 245px;
+        max-width: 295px;
     }
 
     .diagnostic__contacts {
         max-width: 395px;
         padding-left: 0;
-    }
-
-    .diagnostic__apply-bg {
-        max-width: 275px;
     }
 
     .diagnostic__button {
@@ -742,14 +731,14 @@
         padding: 50px 0;
     }
 
-    //news card 
+    // news 
     .news__block {
         max-height: 265px;
     }
 
     .news__block-left {
         height: 265px;
-        min-width: 310px;
+        min-width: 420px;
     }
 
     .news__preview {
@@ -759,6 +748,16 @@
 
     .news__head {
         font-size: 13px;
+    }
+
+    //news card 
+    .publication__inner {
+        padding-bottom: 50px;
+    }
+
+    .publication__title {
+        font-size: 26px;
+        font-weight: 400;
     }
 
     // galery 
@@ -788,12 +787,417 @@
         max-height: 284px;
     }
 
+    .contacts__items {
+        max-width: 198px;
+    }
+
+    .contacts__item {
+        line-height: 24px;
+        ;
+    }
+
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+
+@media (min-width: 770px) and (max-width: 939px) {
+    .container {
+        min-width: 750px;
+        padding: 0 10px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .footer__contacts {
+        padding: 25px 10px;
+    }
+
+    .footer__map {
+        min-width: 390px;
+    }
+
+    // main
+
+
+    .services__block {
+        min-height: 501px;
+    }
+
+    .services__title {
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .info__inner {
+        min-height: 450px;
+    }
+
+    .info__left {
+        margin-left: -100px;
+    }
+
+    .info__right {
+        max-width: 405px;
+    }
+
+    .info__list-inner {
+        justify-content: space-between;
+    }
+
+    .info__list {
+        max-width: 230px;
+    }
+
+    .info__list-item {
+        margin-bottom: 20px;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    .info__title {
+        font-size: 29px;
+        line-height: 30px;
+        font-weight: 300;
+        margin-bottom: 36px;
+    }
+
+    .info__contacts {
+        min-width: 730px;
+        max-width: 800px;        
+        min-height: 100px;
+        max-height: 100px;
+    }
+
+    .originals__inner {
+        min-height: 900px;
+        padding-bottom: 50px;
+    }
+
+    .originals__repair {
+        justify-content: space-around;
+    }
+
+    .originals__title {
+        margin-top: 65px;
+    }
+
+    .originals__link {
+        margin-top: 30px;
+    }
+
+    .stock__inner {
+        padding: 50px 0;
+    }
+
+    .stock__slider-wrapp {
+        max-width: 240px;
+    }
+
+    .latest {
+        min-height: 100%;
+        padding-bottom: 40px;
+    }
+
+    .latest__video {
+        height: 335px;
+    }
+
+    .carsnews__news {
+        height: 485px;
+    }
+
+    .carsnews__news-info {
+        padding-top: 5px;
+    }
+    
+
+    // catalog 
+    .catalog__wrapper {
+        padding-bottom: 50px;
+    }
+
+    .catalog__filters {
+        max-width: 180px;
+        min-width: 180px;
+    }
+
+    .polzunok-wrapper::before {
+        left: 46%;
+    }
+
+    .polzunok-wrapper__input::before {
+        font-size: 13px;
+        right: 15%;
+
+    }
+
+    .polzunok-input-5-left,
+    .polzunok-input-5-right {
+        padding-left: 10px;
+        width: 75px;
+        font-size: 13px;
+
+    }
+
+    .catalog__box {
+        max-width: 550px;
+    }
+
+    .catalog__product {
+        width: 32%;
+
+        .stock__car-info {
+            padding: 5px 15px;
+        }
+
+        .stock__car-title {
+            min-height: 68px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .catalog__product-details {
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .catalog__product-detail {
+        min-width: 70px;
+        margin-bottom: 10px;
+
+        &:last-child {
+            min-width: 100%;
+        }
+    }
+
+    // catalog card 
+    .car__slider-img {
+        object-fit: fill;
+    }
+
+    .car__slider-item {
+        max-width: 600px;
+    }
+
+    .car__slider-wrapp {
+        max-height: 490px;
+        max-width: 600px;
+    }
+
+    .car__slider-wrapper {
+
+        &::after,
+        &::before {
+            width: 76px;
+        }
+    }
+
+    .car__arrow-prev {
+        left: 3%;
+    }
+
+    .car__arrow-next {
+        right: 3%;
+    }
+
+    .car__preview-wrapp {
+        height: 87px;
+        width: 120px;    
+    }
+
+    .car__mid {
+        padding: 10px;
+    }
+    
+    .car__info-title {
+        font-size: 20px;
+    }
+
+    .car__info-items+.car__info-items {
+        margin-left: 20px;
+    }
+
+    .car__status-list+.car__status-list {
+        margin-left: 15px;
+    }
+
+    .car__mid-btn {
+        padding: 14px 13px;
+    }
+
+    .car__bot {
+        padding: 20px 5px;
+    }
+
+    .car__bot-list {
+        font-size: 14px;
+    }
+
+    // parts    
+
+    .menu {
+        max-width: 235px;
+    }
+
+    .menu__main-list {
+        padding: 0 20px;
+    }
+
+    .parts__wrapper {
+        padding-bottom: 50px;
+    }
+
+    .parts__catalog-item {
+        max-width: 265px;
+        min-height: 365px;
+        justify-content: initial;
+    }
+
+    .parts__catalog {
+        justify-content: space-evenly;
+    }
+
+    .parts__catalog-item {
+        max-width: 242px;
+    }
+    
+    .parts__item-info {
+        padding: 17px 8px 20px;
+    }
+
+    .parts__item-title {
+        font-size: 13px;
+    }
+
+    // parts card 
+
+    .spares__info {
+        flex-direction: column;
+    }
+
+    .spares__info-left {
+        margin-bottom: 50px;
+        justify-content: space-evenly;
+    }
+
+    .spares__recent-wrapp {
+        max-width: 241px;
+    }
+
+    // diagnostic card
+    .diagnostic__services {
+        padding: 50px 0;
+    }
+
+    .diagnostic__contacts {
+        max-width: 395px;
+        padding-left: 0;
+    }
+
+    .diagnostic__button {
+        width: 250px;
+    }
+
+    .diagnostic__apply {
+        padding: 0;
+    }
+
+    .diagnostic__apply-inner {
+        padding: 15px 10px;
+    }
+
+    .diagnostic__services-title {
+        text-align: center;
+    }
+
+    .diagnostic__works {
+        justify-content: space-around;
+
+    }      
+
+    .diagnostic__work {
+        max-width: 365px;
+    }  
+
+    // news 
+    .news__block {
+        max-height: 265px;
+    }
+
+    .news__block-left {
+        height: 265px;
+        min-width: 310px;
+    }
+
+    .news__preview {
+        font-size: 13px;
+        padding: 10px 0;
+    }
+
+    .news__head {
+        font-size: 13px;
+    }
+
+    .news__read {
+        padding-bottom: 50px;
+    }
+
+    //news card 
+    .publication__inner {
+        padding-bottom: 50px;
+    }
+
+    .publication__title {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    // galery 
+    .galery__inner {
+        padding-bottom: 0;
+    }
+
+    .galery__item {
+        max-width: 365px;
+    }
+
+    .galery__wrapp {
+        justify-content: space-evenly;
+    }
+
+    // contacts 
+
+    .contacts__content {
+        padding: 70px 40px;
+    }
+
+    .contacts__feedback {
+        max-width: 350px;
+    }
+
+    .contacts__map {
+        max-height: 284px;
+    }
+
+    .contacts__items {
+        max-width: 198px;
+    }
+
+    .contacts__item {
+        line-height: 24px;
+        ;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 769px) {
 
     .container {
-        width: 580px;
+        min-width: 570px;
     }
 
     .header__nav {
@@ -1153,10 +1557,14 @@
 
 }
 
+
+
+
+
 @media (min-width: 320px) and (max-width: 575px) {
 
     .container {
-        width: 315px;
+        min-width: 315px;
     }
 
 
