@@ -1717,7 +1717,8 @@
 @media (min-width: 320px) and (max-width: 575px) {
 
     .container {
-        min-width: 315px;
+        min-width: 310px;
+        padding: 0 5px;
     }
 
     .header__nav {
@@ -1729,8 +1730,12 @@
         max-height: 100%;
     }
 
+    .footer__bottom {
+        flex-direction: column;
+    }
+
     .footer__map {
-        min-width: 550px;
+        min-width: 315px;
         height: 348px;
     }
 
