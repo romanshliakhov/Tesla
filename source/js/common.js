@@ -31,7 +31,7 @@ $(function(){
 			{
 			breakpoint: 769,
 			settings: {
-				slidesToShow: 2,				
+				slidesToShow: 3,				
 				slidesToScroll: 1,			
 				}
 			},
@@ -117,7 +117,7 @@ $(function(){
 			{
 			breakpoint: 769,
 			settings: {
-				slidesToShow: 2,				
+				slidesToShow: 3,				
 				slidesToScroll: 1,			
 				}
 			},
@@ -199,7 +199,17 @@ $(function(){
         slidesToScroll: 1,  
         asNavFor: '.spares__slider-inner',    
         focusOnSelect: true,           
-        variableWidth: false,                
+        variableWidth: false,  
+		responsive: [
+			{
+			breakpoint: 769,
+			settings: {
+				vertical: false,
+				slidesToShow: 3, 							
+				slidesToScroll: 1,			
+				}
+			},									
+		]               
     }); 
    
 });
