@@ -281,6 +281,22 @@ $('.filter__header').click(function(){
 })
 // accordion end
 
+// accordion filters start
+$('.catalog__mob-header').click(function(){
+	$(this).next('.catalog__mob-body').slideToggle();
+})
+// accordion end
+
+// accordion menu start
+$('.parts__mob-header').click(function(){
+	$(this).next('.parts__mob-body').slideToggle();
+})
+// accordion end
+
+
+
+
+
 // polzunok start 
 
 $(".polzunok-5").slider({

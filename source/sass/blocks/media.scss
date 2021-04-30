@@ -170,6 +170,10 @@
         padding: 0 20px;
     }
 
+    .breadcrumbs__inner {
+        min-height: 90px;
+    }
+
     .header__nav {
         min-width: 575px;
         justify-content: space-evenly;
@@ -460,6 +464,10 @@
     .container {
         min-width: 900px;
         padding: 0 10px;
+    }
+
+    .breadcrumbs__inner {
+        min-height: 80px;
     }
 
     .header__nav {
@@ -811,6 +819,10 @@
     .container {
         min-width: 750px;
         padding: 0 10px;
+    }
+
+    .breadcrumbs__inner {
+        min-height: 50px;
     }
 
     .header__nav {
@@ -1232,6 +1244,10 @@
         padding: 0 5px;
     }
 
+    .breadcrumbs__inner {
+        min-height: 50px;
+    }
+
     .header__nav {
         display: none;
     }
@@ -1304,7 +1320,7 @@
     .top {
         margin-bottom: 30px;
     }
-    
+
 
 
 
@@ -1439,7 +1455,7 @@
     .latest {
         min-height: 100%;
         padding-bottom: 0;
-    }   
+    }
 
     .carsnews {
         min-height: 600px;
@@ -1471,6 +1487,56 @@
     }
 
     // catalog 
+    .catalog__filter-mob {
+        display: block;
+        background-color: #000;
+        height: 41px;
+        width: 100%;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    .catalog__mob-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .catalog__mob-body {
+        .catalog__filters {
+            display: block;
+            background-color: #fff;
+            position: relative;
+            z-index: 5;
+            padding: 20px 10px 30px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: inherit;
+            justify-content: space-around;
+        }
+
+        .category__filter {
+            min-width: 250px;
+            margin-top: 0;
+        }
+
+        .polzunok-input {
+            background-color: #F3F2F5;
+            padding-left: 25px;
+            width: 100px;
+            font-size: 14px;
+        }
+
+        .catalog__button {
+            background-color: #fff;
+        }
+    }
+
+    .catalog__filter-cancel {
+        display: block;        
+    }
+
     .catalog__wrapper {
         padding-bottom: 50px;
     }
@@ -1619,10 +1685,35 @@
     }
 
     // parts    
+    .parts__filter-mob {
+        display: block;
+        background-color: #000;
+        height: 41px;
+        width: 100%;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    .parts__mob-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+  .parts__mob-body {
+
+      .menu {
+          display: block;
+          width: 100%;
+      }
+  }
+
+
 
     .menu {
         display: none;
-    }   
+    }
 
     .parts__wrapper {
         padding-bottom: 50px;
@@ -1632,7 +1723,7 @@
         max-width: 185px;
         min-height: 390px;
         justify-content: initial;
-    }   
+    }
 
     .parts__item-info {
         padding: 17px 8px 20px;
@@ -1812,6 +1903,10 @@
     .container {
         min-width: 310px;
         padding: 0 5px;
+    }
+
+    .breadcrumbs__inner {
+        min-height: 50px;
     }
 
     .header__nav {
@@ -2096,6 +2191,55 @@
     }
 
     // catalog 
+    .catalog__filter-mob {
+        display: block;
+        background-color: #000;
+        height: 41px;
+        width: 100%;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    .catalog__mob-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .catalog__mob-body {
+        .catalog__filters {
+            display: block;
+            background-color: #fff;
+            position: relative;
+            z-index: 5;
+            padding: 20px 30px 30px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: inherit;
+            justify-content: center;
+        }
+
+        .category__filter {
+            min-width: 265px;
+            margin-top: 10px;
+            padding-bottom: 15px;
+        }
+
+        .polzunok-input {
+            background-color: #F3F2F5;
+            padding-left: 23px;
+            width: 100px;
+            font-size: 14px;
+        }
+
+        .catalog__button {
+            background-color: #fff;
+        }
+
+    }
+
+
     .catalog__wrapper {
         padding-bottom: 50px;
     }
@@ -2207,7 +2351,7 @@
 
     .car__status-descr {
         flex-direction: column;
-        width: 100%;        
+        width: 100%;
     }
 
     .car__mid-btn {
@@ -2224,30 +2368,56 @@
         margin-bottom: 20px;
     }
 
-    // parts    
+    // parts 
+    .parts__filter-mob {
+        display: block;
+        background-color: #000;
+        height: 41px;
+        width: 100%;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    .parts__mob-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+  .parts__mob-body {
+
+      .menu {
+          display: block;
+          width: 100%;
+      }
+  }
 
     .menu {
-        display: none;        
+        display: none;
     }
-    
+
     .parts__aside-title {
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .parts__wrapper {
         padding-bottom: 50px;
     }
 
-    .parts__catalog-item {        
+    .parts__catalog {
+        justify-content: center;
+    }
+
+    .parts__catalog-item {
         min-height: 365px;
         justify-content: initial;
-    }   
+    }
 
     .parts__item-info {
         padding: 17px 8px 20px;
     }
-
-  
 
     // parts card 
     .spares__info {
