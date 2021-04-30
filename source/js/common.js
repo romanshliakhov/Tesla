@@ -171,10 +171,10 @@ $(function(){
 			{
 			breakpoint: 769,
 			settings: {
-				slidesToShow: 6,				
+				slidesToShow: 5,				
 				slidesToScroll: 1,			
 				}
-			},									
+			},										
 		] 	               
     }); 
    
@@ -208,7 +208,16 @@ $(function(){
 				slidesToShow: 3, 							
 				slidesToScroll: 1,			
 				}
-			},									
+			},	
+			{
+				breakpoint: 575,
+				settings: {
+					vertical: false,
+					slidesToShow: 2, 							
+					slidesToScroll: 1,			
+					}
+				},			
+									
 		]               
     }); 
    
