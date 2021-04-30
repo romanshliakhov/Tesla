@@ -1276,6 +1276,36 @@
         }
     }
 
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .slick-dots li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    .slick-dots button {
+        background-color: #B6B6B6;
+        border: 0;
+        font-size: 0;
+        width: 53px;
+        height: 3px;
+        cursor: pointer;
+        outline: 0;
+    }
+
+    .slick-dots li.slick-active button {
+        background-color: #E31937;
+    }
+
+    .top {
+        margin-bottom: 30px;
+    }
+    
+
 
 
     // main
@@ -1375,7 +1405,7 @@
     }
 
     .stock__inner {
-        padding: 50px 0;
+        padding: 20px 0;
     }
 
     .stock__slider-wrapp {
@@ -1408,12 +1438,8 @@
 
     .latest {
         min-height: 100%;
-        padding-bottom: 40px;
-    }
-
-    .latest__video {
-        height: 335px;
-    }
+        padding-bottom: 0;
+    }   
 
     .carsnews {
         min-height: 600px;
@@ -1879,6 +1905,35 @@
     }
 
     .burger__body-list {
+        margin-bottom: 30px;
+    }
+
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .slick-dots li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    .slick-dots button {
+        background-color: #B6B6B6;
+        border: 0;
+        font-size: 0;
+        width: 53px;
+        height: 3px;
+        cursor: pointer;
+        outline: 0;
+    }
+
+    .slick-dots li.slick-active button {
+        background-color: #E31937;
+    }
+
+    .top {
         margin-bottom: 30px;
     }
 

@@ -32,14 +32,16 @@ $(function(){
 			breakpoint: 769,
 			settings: {
 				slidesToShow: 3,				
-				slidesToScroll: 1,			
+				slidesToScroll: 1,
+				dots: true,			
 				}
 			},
 			{
 			breakpoint: 575,
 			settings: {
 				slidesToShow: 1,				
-				slidesToScroll: 1,			
+				slidesToScroll: 1,
+				dots: true,			
 				}
 			},							
 		]
@@ -75,14 +77,16 @@ $(function(){
 			breakpoint: 769,
 			settings: {
 				slidesToShow: 2,				
-				slidesToScroll: 1,			
+				slidesToScroll: 1,		
+				dots: true,
 				}
 			},
 			{
 			breakpoint: 575,
 			settings: {
 				slidesToShow: 1,				
-				slidesToScroll: 1,			
+				slidesToScroll: 1,	
+				dots: true,		
 				}
 			},							
 		] 	       	  
@@ -118,14 +122,16 @@ $(function(){
 			breakpoint: 769,
 			settings: {
 				slidesToShow: 3,				
-				slidesToScroll: 1,			
+				slidesToScroll: 1,	
+				dots: true,		
 				}
 			},
 			{
 			breakpoint: 575,
 			settings: {
 				slidesToShow: 1,				
-				slidesToScroll: 1,			
+				slidesToScroll: 1,		
+				dots: true,		
 				}
 			},							
 		] 	  
@@ -142,7 +148,16 @@ $(function(){
 		centerMode: true,
 		variableWidth: true,        
 		dots: false,        
-        asNavFor: '.car__preview-inner',            
+        asNavFor: '.car__preview-inner', 
+		responsive: [
+			{
+			breakpoint: 575,
+			settings: {						
+				dots: true,		
+				}
+			},							
+		] 
+		          
     }); 
 
     $('.car__preview-inner').slick({
