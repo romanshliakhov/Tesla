@@ -19,7 +19,7 @@
 
 .originals__repair-item {
     max-width: 300px;
-    max-height: 269px;
+    min-height: 269px;
     padding: 0 15px 15px;
     margin-bottom: 30px;
     display: flex;
@@ -28,7 +28,7 @@
 }
 
 .originals__item-image {
-    max-height: 172px;
+    min-height: 172px;
 }
 
 .originals__item-name {

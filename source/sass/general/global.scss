@@ -195,3 +195,19 @@ p {
   font-style: italic;
 }
 
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -20;
+  background-color: transparent;
+  transition: 0.2s;
+  
+
+  &--display {
+    z-index: initial;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}

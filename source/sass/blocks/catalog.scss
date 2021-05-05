@@ -54,7 +54,12 @@
     justify-content: space-between;
 }
 
+.catalog__slider-wrapp {
+    min-height: 430px;
+}
+
 .catalog__product {
+    max-width: 300px;
     margin-bottom: 30px;    
     background-color: #fff;    
 }
@@ -62,10 +67,6 @@
 
 .catalog__car {
     background-color: #F3F2F5;    
-}
-
-.catalog__card-title {
-    font-weight: 400;
 }
 
 .catalog__filter-mob {   

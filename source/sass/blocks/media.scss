@@ -43,7 +43,7 @@
     .catalog__product {
         max-width: 280px;
     }
-
+   
     // catalog card 
     .catalog__car {
         .container {
@@ -132,13 +132,7 @@
     }
 
     //news card 
-    .news__block {
-        max-height: 265px;
-    }
-
-    .news__block-left {
-        height: 265px;
-    }
+       
 
     // galery 
     .galery {
@@ -263,6 +257,10 @@
     // catalog 
     .catalog__wrapper {
         padding-bottom: 50px;
+    }
+
+    .catalog__slider-wrapp {
+        min-height: 390px;
     }
 
     .catalog__filters {
@@ -415,15 +413,9 @@
         max-width: 400px;
     }
 
-    // news 
-    .news__block {
-        max-height: 265px;
-    }
+    // news    
 
-    .news__block-left {
-        height: 265px;
-    }
-
+    
     //news card 
     .publication__inner {
         padding-bottom: 50px;
@@ -557,6 +549,10 @@
 
     .stock__inner {
         padding: 50px 0;
+    }
+
+    .stock__car-img {
+        object-fit: initial;
     }
 
     .latest {
@@ -748,13 +744,10 @@
         padding: 50px 0;
     }
 
-    // news 
-    .news__block {
-        max-height: 265px;
-    }
+    // news     
 
     .news__block-left {
-        height: 265px;
+       
         min-width: 420px;
     }
 
@@ -938,6 +931,14 @@
 
     .stock__slider-wrapp {
         max-width: 240px;
+    }
+
+    .stock__car-image {
+        height: 240px;
+    }
+
+    .stock__car-title {
+        padding-bottom: 20px;
     }
 
     .latest {
@@ -1167,13 +1168,9 @@
         max-width: 365px;
     }
 
-    // news 
-    .news__block {
-        max-height: 265px;
-    }
+    // news  
 
-    .news__block-left {
-        height: 265px;
+    .news__block-left {        
         min-width: 310px;
     }
 
@@ -1321,9 +1318,6 @@
         margin-bottom: 30px;
     }
 
-
-
-
     // main
     .services__block {
         min-height: 360px;
@@ -1428,14 +1422,13 @@
         max-width: 185px;
     }
 
-    .stock__car-info {
-        padding: 5px 15px;
-    }
+    .stock__car-image {
+        height: 185px;
+    }   
 
-    .stock__car-title {
-        min-height: 39px;
-        margin-bottom: 10px;
-    }
+    .stock__car-info {
+        padding: 10px 15px;
+    }   
 
     .stock__car-details {
         justify-content: space-between;
@@ -1709,8 +1702,6 @@
         }
     }
 
-
-
     .menu {
         display: none;
     }
@@ -1816,8 +1807,7 @@
         text-align: center;
     }
 
-    .news__block-left {
-        height: 265px;
+    .news__block-left {        
         width: 100%;
     }
 
@@ -1970,7 +1960,7 @@
     }
 
     .button {
-        width: 100%;
+        width: 90%;
     }
 
     .pagination__item {
@@ -2250,7 +2240,6 @@
         .catalog__button {
             background-color: #fff;
         }
-
     }
 
     .catalog__wrapper {
@@ -2282,8 +2271,12 @@
         max-width: 100%;
     }
 
+    .catalog__products {
+        justify-content: center;
+    }
+
     .catalog__product {
-        width: 100%;
+        width: 100%;        
 
         .stock__car-info {
             padding: 15px;
@@ -2291,14 +2284,15 @@
 
         .stock__car-image {
             max-height: 100%;
-        }
+        }       
+    }
+
+    .catalog__button {
+        width: 100%;
     }
 
     // catalog card 
-    .car__slider-img {
-        object-fit: fill;
-    }
-
+   
     .car__slider-item {
         max-width: 320px;
     }
@@ -2372,11 +2366,16 @@
     .car__bot {
         flex-wrap: wrap;
         padding: 30px 0;
+        padding-bottom: 0;
     }
 
     .car__bot-item {
         min-width: 100%;
         margin-bottom: 30px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 
     // parts 
@@ -2578,9 +2577,9 @@
         text-align: center;
     }
 
-    .news__block-left {
-        height: 265px;
+    .news__block-left {        
         min-width: 305px;
+        min-height: 100%;
         width: 100%;
     }
 
@@ -2693,3 +2692,4 @@
     }
 
 }
+

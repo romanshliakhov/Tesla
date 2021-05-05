@@ -18,17 +18,17 @@
 }
 
 .news__block {      
-    max-height: 229px;
+    min-height: 229px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+   
 }
 
 .news__block-left {
     min-width: 429px;
-    height: 228px;
+    min-height: 228px;
 }
 
 .news__block-image {

@@ -192,7 +192,7 @@
               </div>
 
               <div class="catalog__mob-body">
-                <div class="catalog__filters">
+                <div class="catalog__mob-filters catalog__filters">
                   <div class="category__filter">
                     <div class="filter__header">
                       <div class="filter__title">Цена</div>
@@ -378,12 +378,10 @@
                     </svg>
                   </li>
                 </ul>
-  
+
                 <button class="catalog__cancel-button button">Сбросить все</button>
               </div>
             </div>
-
-            
 
             <div class="catalog__wrapper">
               <div class="catalog__filters">
@@ -439,24 +437,24 @@
                   <div class="filter__body">
                     <div class="filter__wrapp">
                       <div class="filter__checkbox">
-                        <input class="filter__input" type="checkbox" id="Model-S" name="Model-S">
-                        <label class="filter__label" for="Model-S">Model S</label>
+                        <input class="filter__input" type="checkbox" id="Model-55" name="Model-S">
+                        <label class="filter__label" for="Model-55">Model S</label>
                       </div>
 
                       <div class="filter__checkbox">
-                        <input class="filter__input" type="checkbox" id="Model-3" name="Model-3">
-                        <label class="filter__label" for="Model-3">Model 3</label>
+                        <input class="filter__input" type="checkbox" id="Model-33" name="Model-3">
+                        <label class="filter__label" for="Model-33">Model 3</label>
                       </div>
 
                       <div class="filter__checkbox">
-                        <input class="filter__input" type="checkbox" id="Model-X" name="Model-X">
-                        <label class="filter__label" for="Model-X">Model X</label>
+                        <input class="filter__input" type="checkbox" id="Model-XX" name="Model-X">
+                        <label class="filter__label" for="Model-XX">Model X</label>
 
                       </div>
 
                       <div class="filter__checkbox">
-                        <input class="filter__input" type="checkbox" id="Model-Y" name="Model-Y">
-                        <label class="filter__label" for="Model-Y">Model Y</label>
+                        <input class="filter__input" type="checkbox" id="Model-YY" name="Model-Y">
+                        <label class="filter__label" for="Model-YY">Model Y</label>
                       </div>
                     </div>
                   </div>
@@ -480,18 +478,18 @@
                   <div class="filter__body">
                     <div class="filter__wrapp">
                       <div class="filter__checkbox">
-                        <input class="filter__input" type="checkbox" id="300-350" name="300-350">
-                        <label class="filter__label" for="300-350">300-350</label>
+                        <input class="filter__input" type="checkbox" id="300-350-1" name="300-350">
+                        <label class="filter__label" for="300-350-1">300-350</label>
                       </div>
 
                       <div class="filter__checkbox">
-                        <input class="filter__input" type="checkbox" id="350-400" name="350-400">
-                        <label class="filter__label" for="350-400">350-400</label>
+                        <input class="filter__input" type="checkbox" id="350-400-1" name="350-400">
+                        <label class="filter__label" for="350-400-1">350-400</label>
                       </div>
 
                       <div class="filter__checkbox">
-                        <input class="filter__input" type="checkbox" id="450-500" name="450-500">
-                        <label class="filter__label" for="450-500">450-500</label>
+                        <input class="filter__input" type="checkbox" id="450-500-1" name="450-500">
+                        <label class="filter__label" for="450-500-1">450-500</label>
                       </div>
                     </div>
                   </div>
@@ -515,13 +513,13 @@
                   <div class="filter__body">
                     <div class="filter__wrapp">
                       <div class="filter__checkbox">
-                        <input class="filter__input" type="checkbox" id="fwd" name="fw">
-                        <label class="filter__label" for="fwd">Передний</label>
+                        <input class="filter__input" type="checkbox" id="fwd-1" name="fw">
+                        <label class="filter__label" for="fwd-1">Передний</label>
                       </div>
 
                       <div class="filter__checkbox">
-                        <input class="filter__input" type="checkbox" id="rwd" name="rwd">
-                        <label class="filter__label" for="rwd">Задний</label>
+                        <input class="filter__input" type="checkbox" id="rwd-2" name="rwd">
+                        <label class="filter__label" for="rwd-2">Задний</label>
                       </div>
                     </div>
                   </div>
@@ -533,209 +531,253 @@
               <div class="catalog__box">
                 <div class="catalog__products">
                   <div class="catalog__product stock__slider-car">
-                    <div class="stock__car-image">
-                      <img class="stock__car-img" src="img/cars/stock/car1.jpg" alt="">
-                    </div>
-                    <div class="catalog__product-info stock__car-info">
-                      <div class="stock__car-title">Tesla Model S P85D</div>
-                      <div class="catalog__product-details stock__car-details">
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-year">2015</span>
-                          год</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">50 000
-                            км</span> пробег</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
-                            €</span> цена</div>
+                    <div class="catalog__slider-wrapp">
+                      <div class="scroll__slider">
+                        <div class='scroll__container p-tile'>
+                          <div class="scroll__slider-inner">
+                            <img class="scroll__img stock__car-img" src="img/cars/stock/car1.jpg" alt="">
+                            <img class="scroll__img stock__car-img" src="img/cars/stock/car2.jpg"
+                              alt="">
+                            <img class="scroll__img stock__car-img" src="img/cars/stock/car3.jpg" alt="">
+                            <img class="scroll__img stock__car-img" src="img/cars/stock/car4.jpg" alt="">
+                            <img class="scroll__img stock__car-img" src="img/cars/stock/car5.jpg" alt="">                            
+                          </div>
+
+                          <span class="main-nav">
+                            <span data-id="0" class="main-nav__child"></span>
+                            <span data-id="1" class="main-nav__child"></span>
+                            <span data-id="2" class="main-nav__child"></span>
+                            <span data-id="3" class="main-nav__child"></span>
+                            <span data-id="4" class="main-nav__child"></span>
+                          </span>
+                        </div>
+                      </div>
+
+
+                      <div class="catalog__product-info stock__car-info">
+                        <div class="stock__car-title">Tesla Model S P85D</div>
+                        <div class="catalog__product-details stock__car-details">
+                          <div class="catalog__product-detail stock__car-detail"><span
+                              class="stock__car-year">2015</span>
+                            год</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">50 000
+                              км</span> пробег</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
+                              €</span> цена</div>
+                        </div>
                       </div>
                     </div>
                   </div>
 
                   <div class="catalog__product stock__slider-car">
-                    <div class="stock__car-image">
-                      <img class="stock__car-img" src="img/cars/stock/car3.jpg" alt="">
-                    </div>
-                    <div class="catalog__product-info stock__car-info">
-                      <div class="stock__car-title">Tesla Model 3 Standard Plus</div>
-                      <div class="catalog__product-details stock__car-details">
-                        <div class="catalog__product-detail stock__car-detail"><span
-                            class="stock__car-year">2020</span>год</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">500
-                            км</span>пробег</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
-                            €</span>цена</div>
+                    <div class="catalog__slider-wrapp">
+                      <div class="stock__car-image">
+                        <img class="stock__car-img" src="img/cars/stock/car3.jpg" alt="">
+                      </div>
+                      <div class="catalog__product-info stock__car-info">
+                        <div class="stock__car-title">Tesla Model 3 Standard Plus</div>
+                        <div class="catalog__product-details stock__car-details">
+                          <div class="catalog__product-detail stock__car-detail"><span
+                              class="stock__car-year">2020</span>год</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">500
+                              км</span>пробег</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
+                              €</span>цена</div>
+                        </div>
                       </div>
                     </div>
                   </div>
 
                   <div class="catalog__product stock__slider-car">
-                    <div class="stock__car-image">
-                      <img class="stock__car-img" src="img/cars/stock/car4.jpg" alt="">
-                    </div>
-                    <div class="catalog__product-info stock__car-info">
-                      <div class="stock__car-title">Tesla Model 3 Performance (2020)</div>
-                      <div class="catalog__product-details stock__car-details">
-                        <div class="catalog__product-detail stock__car-detail"><span
-                            class="stock__car-year">2020</span>год</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">0
-                            км</span>пробег</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">79 800
-                            €</span>цена</div>
+                    <div class="catalog__slider-wrapp">
+                      <div class="stock__car-image">
+                        <img class="stock__car-img" src="img/cars/stock/car4.jpg" alt="">
+                      </div>
+                      <div class="catalog__product-info stock__car-info">
+                        <div class="stock__car-title">Tesla Model 3 Performance (2020)</div>
+                        <div class="catalog__product-details stock__car-details">
+                          <div class="catalog__product-detail stock__car-detail"><span
+                              class="stock__car-year">2020</span>год</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">0
+                              км</span>пробег</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">79 800
+                              €</span>цена</div>
+                        </div>
                       </div>
                     </div>
                   </div>
 
                   <div class="catalog__product stock__slider-car">
-                    <div class="stock__car-image">
-                      <img class="stock__car-img" src="img/cars/stock/car2.jpg" alt="">
-                    </div>
-                    <div class="catalog__product-info stock__car-info">
-                      <div class="stock__car-title">Tesla Model 3 Long Range AWD</div>
-                      <div class="catalog__product-details stock__car-details">
-                        <div class="catalog__product-detail stock__car-detail"><span
-                            class="stock__car-year">2015</span>год</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">50 000
-                            км</span>пробег</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
-                            €</span>цена</div>
+                    <div class="catalog__slider-wrapp">
+                      <div class="stock__car-image">
+                        <img class="stock__car-img" src="img/cars/stock/car2.jpg" alt="">
+                      </div>
+                      <div class="catalog__product-info stock__car-info">
+                        <div class="stock__car-title">Tesla Model 3 Long Range AWD</div>
+                        <div class="catalog__product-details stock__car-details">
+                          <div class="catalog__product-detail stock__car-detail"><span
+                              class="stock__car-year">2015</span>год</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">50 000
+                              км</span>пробег</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
+                              €</span>цена</div>
+                        </div>
                       </div>
                     </div>
                   </div>
 
                   <div class="catalog__product stock__slider-car">
-                    <div class="stock__car-image">
-                      <img class="stock__car-img" src="img/cars/stock/car5.jpg" alt="">
-                    </div>
-                    <div class="catalog__product-info stock__car-info">
-                      <div class="stock__car-title">Tesla Model 3 Standard Plus</div>
-                      <div class="catalog__product-details stock__car-details">
-                        <div class="catalog__product-detail stock__car-detail"><span
-                            class="stock__car-year">2020</span>год</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">500
-                            км</span>пробег</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
-                            €</span>цена</div>
+                    <div class="catalog__slider-wrapp">
+                      <div class="stock__car-image">
+                        <img class="stock__car-img" src="img/cars/stock/car5.jpg" alt="">
+                      </div>
+                      <div class="catalog__product-info stock__car-info">
+                        <div class="stock__car-title">Tesla Model 3 Standard Plus</div>
+                        <div class="catalog__product-details stock__car-details">
+                          <div class="catalog__product-detail stock__car-detail"><span
+                              class="stock__car-year">2020</span>год</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">500
+                              км</span>пробег</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
+                              €</span>цена</div>
+                        </div>
                       </div>
                     </div>
                   </div>
 
                   <div class="catalog__product stock__slider-car">
-                    <div class="stock__car-image">
-                      <img class="stock__car-img" src="img/cars/stock/car6.jpg" alt="">
-                    </div>
-                    <div class="catalog__product-info stock__car-info">
-                      <div class="stock__car-title">Tesla Model 3 Standard Plus</div>
-                      <div class="catalog__product-details stock__car-details">
-                        <div class="catalog__product-detail stock__car-detail"><span
-                            class="stock__car-year">2020</span>год</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">500
-                            км</span>пробег</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
-                            €</span>цена</div>
+                    <div class="catalog__slider-wrapp">
+                      <div class="stock__car-image">
+                        <img class="stock__car-img" src="img/cars/stock/car6.jpg" alt="">
+                      </div>
+                      <div class="catalog__product-info stock__car-info">
+                        <div class="stock__car-title">Tesla Model 3 Standard Plus</div>
+                        <div class="catalog__product-details stock__car-details">
+                          <div class="catalog__product-detail stock__car-detail"><span
+                              class="stock__car-year">2020</span>год</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">500
+                              км</span>пробег</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
+                              €</span>цена</div>
+                        </div>
                       </div>
                     </div>
                   </div>
 
                   <div class="catalog__product stock__slider-car">
-                    <div class="stock__car-image">
-                      <img class="stock__car-img" src="img/cars/stock/car7.jpg" alt="">
-                    </div>
-                    <div class="catalog__product-info stock__car-info">
-                      <div class="stock__car-title">Tesla Model 3 Standard Plus</div>
-                      <div class="catalog__product-details stock__car-details">
-                        <div class="catalog__product-detail stock__car-detail"><span
-                            class="stock__car-year">2020</span>год</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">500
-                            км</span>пробег</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
-                            €</span>цена</div>
+                    <div class="catalog__slider-wrapp">
+                      <div class="stock__car-image">
+                        <img class="stock__car-img" src="img/cars/stock/car7.jpg" alt="">
+                      </div>
+                      <div class="catalog__product-info stock__car-info">
+                        <div class="stock__car-title">Tesla Model 3 Standard Plus</div>
+                        <div class="catalog__product-details stock__car-details">
+                          <div class="catalog__product-detail stock__car-detail"><span
+                              class="stock__car-year">2020</span>год</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">500
+                              км</span>пробег</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
+                              €</span>цена</div>
+                        </div>
                       </div>
                     </div>
                   </div>
 
                   <div class="catalog__product stock__slider-car">
-                    <div class="stock__car-image">
-                      <img class="stock__car-img" src="img/cars/stock/car8.jpg" alt="">
-                    </div>
-                    <div class="catalog__product-info stock__car-info">
-                      <div class="stock__car-title">Tesla Model 3 Standard Plus</div>
-                      <div class="catalog__product-details stock__car-details">
-                        <div class="catalog__product-detail stock__car-detail"><span
-                            class="stock__car-year">2020</span>год</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">500
-                            км</span>пробег</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
-                            €</span>цена</div>
+                    <div class="catalog__slider-wrapp">
+                      <div class="stock__car-image">
+                        <img class="stock__car-img" src="img/cars/stock/car8.jpg" alt="">
+                      </div>
+                      <div class="catalog__product-info stock__car-info">
+                        <div class="stock__car-title">Tesla Model 3 Standard Plus</div>
+                        <div class="catalog__product-details stock__car-details">
+                          <div class="catalog__product-detail stock__car-detail"><span
+                              class="stock__car-year">2020</span>год</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">500
+                              км</span>пробег</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
+                              €</span>цена</div>
+                        </div>
                       </div>
                     </div>
                   </div>
 
                   <div class="catalog__product stock__slider-car">
-                    <div class="stock__car-image">
-                      <img class="stock__car-img" src="img/cars/stock/car5.jpg" alt="">
-                    </div>
-                    <div class="catalog__product-info stock__car-info">
-                      <div class="stock__car-title">Tesla Model 3 Standard Plus</div>
-                      <div class="catalog__product-details stock__car-details">
-                        <div class="catalog__product-detail stock__car-detail"><span
-                            class="stock__car-year">2020</span>год</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">500
-                            км</span>пробег</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
-                            €</span>цена</div>
+                    <div class="catalog__slider-wrapp">
+                      <div class="stock__car-image">
+                        <img class="stock__car-img" src="img/cars/stock/car5.jpg" alt="">
+                      </div>
+                      <div class="catalog__product-info stock__car-info">
+                        <div class="stock__car-title">Tesla Model 3 Standard Plus</div>
+                        <div class="catalog__product-details stock__car-details">
+                          <div class="catalog__product-detail stock__car-detail"><span
+                              class="stock__car-year">2020</span>год</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">500
+                              км</span>пробег</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
+                              €</span>цена</div>
+                        </div>
                       </div>
                     </div>
                   </div>
 
                   <div class="catalog__product stock__slider-car">
-                    <div class="stock__car-image">
-                      <img class="stock__car-img" src="img/cars/stock/car3.jpg" alt="">
-                    </div>
-                    <div class="catalog__product-info stock__car-info">
-                      <div class="stock__car-title">Tesla Model 3 Standard Plus</div>
-                      <div class="catalog__product-details stock__car-details">
-                        <div class="catalog__product-detail stock__car-detail"><span
-                            class="stock__car-year">2020</span>год</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">500
-                            км</span>пробег</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
-                            €</span>цена</div>
+                    <div class="catalog__slider-wrapp">
+                      <div class="stock__car-image">
+                        <img class="stock__car-img" src="img/cars/stock/car3.jpg" alt="">
+                      </div>
+                      <div class="catalog__product-info stock__car-info">
+                        <div class="stock__car-title">Tesla Model 3 Standard Plus</div>
+                        <div class="catalog__product-details stock__car-details">
+                          <div class="catalog__product-detail stock__car-detail"><span
+                              class="stock__car-year">2020</span>год</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">500
+                              км</span>пробег</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
+                              €</span>цена</div>
+                        </div>
                       </div>
                     </div>
                   </div>
 
                   <div class="catalog__product stock__slider-car">
-                    <div class="stock__car-image">
-                      <img class="stock__car-img" src="img/cars/stock/car1.jpg" alt="">
-                    </div>
-                    <div class="catalog__product-info stock__car-info">
-                      <div class="stock__car-title">Tesla Model S P85D</div>
-                      <div class="catalog__product-details stock__car-details">
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-year">2015</span>
-                          год</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">50 000
-                            км</span> пробег</div>
-                        <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
-                            €</span> цена</div>
+                    <div class="catalog__slider-wrapp">
+                      <div class="stock__car-image">
+                        <img class="stock__car-img" src="img/cars/stock/car1.jpg" alt="">
+                      </div>
+                      <div class="catalog__product-info stock__car-info">
+                        <div class="stock__car-title">Tesla Model S P85D</div>
+                        <div class="catalog__product-details stock__car-details">
+                          <div class="catalog__product-detail stock__car-detail"><span
+                              class="stock__car-year">2015</span>
+                            год</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-milage">50 000
+                              км</span> пробег</div>
+                          <div class="catalog__product-detail stock__car-detail"><span class="stock__car-price">54 900
+                              €</span> цена</div>
+                        </div>
                       </div>
                     </div>
                   </div>
 
                   <div class="catalog__product stock__slider-car">
-                    <div class="stock__car-image">
-                      <img class="stock__car-img" src="img/cars/stock/car4.jpg" alt="">
-                    </div>
-                    <div class="catalog__product-info stock__car-info">
-                      <div class="stock__car-title">Tesla Model 3 Performance (2020)</div>
-                      <div class="catalog__product-details stock__car-details">
-                        <div class="stock__car-detail catalog__product-detail"><span
-                            class="stock__car-year">2020</span>год</div>
-                        <div class="stock__car-detail catalog__product-detail"><span class="stock__car-milage">0
-                            км</span>пробег</div>
-                        <div class="stock__car-detail catalog__product-detail"><span class="stock__car-price">79 800
-                            €</span>цена</div>
+                    <div class="catalog__slider-wrapp">
+                      <div class="stock__car-image">
+                        <img class="stock__car-img" src="img/cars/stock/car4.jpg" alt="">
+                      </div>
+                      <div class="catalog__product-info stock__car-info">
+                        <div class="stock__car-title">Tesla Model 3 Performance (2020)</div>
+                        <div class="catalog__product-details stock__car-details">
+                          <div class="stock__car-detail catalog__product-detail"><span
+                              class="stock__car-year">2020</span>год</div>
+                          <div class="stock__car-detail catalog__product-detail"><span class="stock__car-milage">0
+                              км</span>пробег</div>
+                          <div class="stock__car-detail catalog__product-detail"><span class="stock__car-price">79 800
+                              €</span>цена</div>
+                        </div>
                       </div>
                     </div>
                   </div>
-
                 </div>
 
                 <button class="more">показать еще</button>
