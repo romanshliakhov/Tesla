@@ -1,6 +1,7 @@
 .services {
     margin-top: -80px;
     display: flex;
+    
 }
 
 .services__block {
@@ -8,8 +9,8 @@
     width: 34%;
     display: flex;
     justify-content: center;
-    text-align: center;
-    padding-top: 17%;
+    align-items: center;
+    text-align: center;    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

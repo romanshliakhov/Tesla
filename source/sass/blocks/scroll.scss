@@ -4,9 +4,8 @@
 
 
 .scroll__slider-inner {
-    width: 300px;
+    max-width: 300px;
     height: 300px;
-
     position: relative;
 }
 
@@ -36,7 +35,8 @@
     right: 0;
     left: 0;
     bottom: 0;
-    z-index: 20;
+    z-index: 5;
+
     &:hover {
         opacity: 1;
         .main-nav__child {
@@ -58,10 +58,10 @@
         display: none;
         position: absolute;
         height: 3px;
-        left: 2px;
-        right: 2px;
+        left: 5px;
+        right: 5px;
         background-color: #fff;
-        bottom: 10px;
+        bottom: 15px;
     }
     &--active {
         &:before {

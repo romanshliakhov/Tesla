@@ -40,9 +40,11 @@
         max-width: 860px;
     }
 
-    .catalog__product {
-        max-width: 280px;
+    .catalog__slider-wrapp {        
+        width: 280px;
     }
+
+   
    
     // catalog card 
     .catalog__car {
@@ -80,6 +82,12 @@
         max-width: 275px;
     }
 
+    .parts__item-title {
+        padding-bottom: 20px;
+        min-height: 85px;
+
+    }
+
     // parts card 
     .spares__info {
         max-height: 460px;
@@ -102,6 +110,15 @@
 
     .spares__recent-wrapp {
         max-width: 270px;
+
+        .stock__car-image {
+            max-height: 217px;
+        }
+
+        .parts__item-title {
+            padding-bottom: 10px;
+            min-height: 65px;
+        }
     }
 
     .spares__title {
