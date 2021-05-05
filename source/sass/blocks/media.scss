@@ -26,6 +26,12 @@
         height: 485px;
     }
 
+    // scroll slider
+    .scroll__slider-inner {
+        max-width: 280px;
+    }
+
+
     // catalog 
 
     .catalog__wrapper {
@@ -40,12 +46,12 @@
         max-width: 860px;
     }
 
-    .catalog__slider-wrapp {        
+    .catalog__slider-wrapp {
         width: 280px;
     }
 
-   
-   
+
+
     // catalog card 
     .catalog__car {
         .container {
@@ -149,7 +155,7 @@
     }
 
     //news card 
-       
+
 
     // galery 
     .galery {
@@ -171,6 +177,7 @@
     .contacts__map {
         max-height: 442px;
     }
+
 
 }
 
@@ -207,8 +214,7 @@
     }
 
     // main
-    .services__block {
-        padding-top: 17%;
+    .services__block {        
         min-height: 530px;
     }
 
@@ -242,8 +248,8 @@
     }
 
     .stock__car-info {
-        height: 135px;
         padding: 15px 22px 19px;
+        min-height: 150px;
     }
 
     .stock__car-title {
@@ -269,6 +275,12 @@
 
     .carsnews__news-info {
         padding-top: 5px;
+    }
+
+    // scroll slider
+    .scroll__slider-inner {
+        width: 240px;
+        height: 240px;
     }
 
     // catalog 
@@ -345,14 +357,36 @@
     }
 
     .menu {
-        min-width: 300px;
+        max-width: 250px;
     }
+
+    .menu__main:hover {
+        min-height: 723px;
+    }
+
+    .menu__item,
+    .menu__item1,
+    .menu__item2 {
+        font-size: 13px;
+    }
+
+    .menu__main-list {
+        padding: 0px 15px;
+    }
+
+    .menu__sec-list {
+        padding: 0 13px;
+    }
+
+    .menu__frth-list {
+        padding: 0 15px;
+    }
+
 
     // parts card 
 
     .spares__info {
-        max-height: 404px;
-        min-height: 400px;
+        min-height: 100%;
     }
 
     .spares__info-left {
@@ -419,6 +453,7 @@
 
     .diagnostic__work {
         max-width: 325px;
+        margin-bottom: 0;
     }
 
     .diagnostic__contacts {
@@ -432,7 +467,7 @@
 
     // news    
 
-    
+
     //news card 
     .publication__inner {
         padding-bottom: 50px;
@@ -444,6 +479,14 @@
     }
 
     // galery 
+    .galery {
+        .breadcrumbs {
+            .container {
+                max-width: 1050px;
+            }
+        }
+    }
+
     .galery__inner {
         .container {
             width: 1020px;
@@ -452,6 +495,11 @@
 
     .galery__wrapp {
         justify-content: space-evenly;
+    }
+
+    .galery__item .scroll__slider-inner {
+        width: 100%;
+        height: 296px;
     }
 
     // contacts 
@@ -764,7 +812,7 @@
     // news     
 
     .news__block-left {
-       
+
         min-width: 420px;
     }
 
@@ -1187,7 +1235,7 @@
 
     // news  
 
-    .news__block-left {        
+    .news__block-left {
         min-width: 310px;
     }
 
@@ -1441,11 +1489,11 @@
 
     .stock__car-image {
         height: 185px;
-    }   
+    }
 
     .stock__car-info {
         padding: 10px 15px;
-    }   
+    }
 
     .stock__car-details {
         justify-content: space-between;
@@ -1824,7 +1872,7 @@
         text-align: center;
     }
 
-    .news__block-left {        
+    .news__block-left {
         width: 100%;
     }
 
@@ -1962,7 +2010,7 @@
 
     .footer__record-icon {
         margin-right: 30px;
-    }    
+    }
 
     .footer__map {
         min-width: 305px;
@@ -2063,7 +2111,7 @@
     }
 
     .services__block-sell {
-        background-image: url(../img/background/sell-mob.jpg); 
+        background-image: url(../img/background/sell-mob.jpg);
     }
 
     .services__title {
@@ -2205,7 +2253,7 @@
 
     .carsnews__news-image {
         width: 100%;
-    }   
+    }
 
     .carsnews__title-br {
         display: contents;
@@ -2293,7 +2341,7 @@
     }
 
     .catalog__product {
-        width: 100%;        
+        width: 100%;
 
         .stock__car-info {
             padding: 15px;
@@ -2301,7 +2349,7 @@
 
         .stock__car-image {
             max-height: 100%;
-        }       
+        }
     }
 
     .catalog__button {
@@ -2309,7 +2357,7 @@
     }
 
     // catalog card 
-   
+
     .car__slider-item {
         max-width: 320px;
     }
@@ -2594,7 +2642,7 @@
         text-align: center;
     }
 
-    .news__block-left {        
+    .news__block-left {
         min-width: 305px;
         min-height: 100%;
         width: 100%;
@@ -2709,4 +2757,3 @@
     }
 
 }
-
