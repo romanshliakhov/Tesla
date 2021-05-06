@@ -84,11 +84,11 @@
         transform: translateY(-50%);
     }  
 
-    &::before {
-        content: '€';
-        position: absolute;      
-        font-size: 15px;
-        right: 20%;
-    }
+    // &::before {
+    //     content: '€';
+    //     position: absolute;      
+    //     font-size: 15px;
+    //     right: 20%;
+    // }
 }
 

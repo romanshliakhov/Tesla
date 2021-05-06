@@ -315,20 +315,22 @@ $(child).hover(function () {
 
 
 // range slider start
-
+const formatCurrency = (values) => {
+	return new Intl.NumberFormat('ru-RU', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 }).format(values);
+}
 
 // polzunok start 
 $(".polzunok-5").slider({
 	min: 0,
 	max: 100000,
-	values: [15000, 80000],
+	values: [15000 , 80000],
 	range: true,
 	animate: "fast",
 	slide: function (event, ui) {
-		$(".polzunok-input-5-left").val(ui.values[0]);
-		$(".polzunok-input-5-right").val(ui.values[1]);
+	  $(".polzunok-input-5-left").val(formatCurrency(ui.values[0]));
+	  $(".polzunok-input-5-right").val(formatCurrency(ui.values[1]));  
 	}
-});
+  });
 
 $(".polzunok-input-5-left").val($(".polzunok-5").slider("values", 0));
 $(".polzunok-input-5-right").val($(".polzunok-5").slider("values", 1));
