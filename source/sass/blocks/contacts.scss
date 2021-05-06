@@ -161,6 +161,10 @@
     max-height: 504px;
 }
 
+.contacts__map-img {
+    object-fit: cover;
+}
+
 .contacts__input::-webkit-input-placeholder,
 :-moz-placeholder,
 ::-moz-placeholder,
